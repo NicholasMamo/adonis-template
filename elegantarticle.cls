@@ -20,6 +20,9 @@
 			left=40mm, right=40mm, top=57mm, bottom=57mm,
 			footskip=.25in]{geometry}
 
+% add space between columns
+\setlength{\columnsep}{10mm}
+
 % font size: https://www.overleaf.com/learn/latex/Writing_your_own_class#Options
 \renewcommand{\normalsize}{\fontsize{10}{14}\selectfont}
 \renewcommand\familydefault{\rmdefault}
