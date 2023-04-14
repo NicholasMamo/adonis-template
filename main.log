@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 21:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 21:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -661,7 +661,7 @@ LaTeX Font Info:    ... okay on input line 8.
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
-* \footskip=18.06749pt
+* \footskip=42.67912pt
 * \marginparwidth=4.0pt
 * \marginparsep=10.0pt
 * \columnsep=28.45274pt
@@ -767,7 +767,7 @@ Underfull \hbox (badness 2573) in paragraph at lines 30--30
 Here is how much of TeX's memory you used:
  3591 strings out of 483107
  65818 string characters out of 5964630
- 546608 words of memory out of 5000000
+ 546602 words of memory out of 5000000
  18586 multiletter control sequences out of 15000+600000
  621464 words of font info for 43 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
@@ -777,7 +777,7 @@ a_mhce32.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rl
 btkr.enc}</usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceS
 ansPro-Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceseri
 fpro/SourceSerifPro-Regular.pfb>
-Output written on main.pdf (3 pages, 112950 bytes).
+Output written on main.pdf (3 pages, 112954 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream

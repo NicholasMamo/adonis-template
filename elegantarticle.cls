@@ -31,12 +31,12 @@
 \ifthenelse{\boolean{onecolumn}}{\def\margin{40mm}}{\def\margin{25mm}}
 \RequirePackage[a4paper, bindingoffset=0.2in,
 				left=\margin, right=\margin, top=57mm, bottom=57mm,
-				footskip=.25in]{geometry}
+				footskip=15mm]{geometry}
 
 % add space between columns
 \setlength{\columnsep}{10mm}
 
-% font size: https://www.overleaf.com/learn/latex/Writing_your_own_class#Options
+% font size: https://www.overleaf.com/learn/latex/Writing_your_own_class
 \ifthenelse{\boolean{onecolumn}}{\def\lineheight{14}}{\def\lineheight{13}}
 \renewcommand{\normalsize}{\fontsize{10}{\lineheight}\selectfont}
 \renewcommand\familydefault{\rmdefault}
