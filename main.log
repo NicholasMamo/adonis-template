@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 21:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 21:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -728,11 +728,46 @@ Underfull \hbox (badness 1215) in paragraph at lines 18--18
 \T1/SourceSerifPro-LF/m/n/10 ali-quet odio. In-te-ger vi-tae justo. Ali-quam
  []
 
-[2] (./main.aux) ) 
+
+Underfull \hbox (badness 2460) in paragraph at lines 22--22
+\T1/SourceSerifPro-LF/m/n/10 nibh est plac-erat odio, nec com-modo wisi
+ []
+
+[2]
+Underfull \hbox (badness 1681) in paragraph at lines 26--26
+\T1/SourceSerifPro-LF/m/n/10 ornare in, ul-lam-cor-per quis, com-modo eu,
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 26--26
+\T1/SourceSerifPro-LF/m/n/10 libero. Fusce sagit-tis erat at erat tris-tique
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 30--30
+\T1/SourceSerifPro-LF/m/n/10 Sed feu-giat. Cum sociis na-toque pe-nat-i-bus
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 30--30
+\T1/SourceSerifPro-LF/m/n/10 et mag-nis dis par-turi-ent montes, nasce-tur
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 30--30
+\T1/SourceSerifPro-LF/m/n/10 ridicu-lus mus. Ut pel-len-tesque au-gue sed
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 30--30
+[]\T1/SourceSerifPro-LF/m/n/10 Aliquam lec-tus. Vi-va-mus leo. Quisque
+ []
+
+[3] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  3591 strings out of 483107
  65818 string characters out of 5964630
- 545518 words of memory out of 5000000
+ 546608 words of memory out of 5000000
  18586 multiletter control sequences out of 15000+600000
  621464 words of font info for 43 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
@@ -742,10 +777,10 @@ a_mhce32.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rl
 btkr.enc}</usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceS
 ansPro-Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceseri
 fpro/SourceSerifPro-Regular.pfb>
-Output written on main.pdf (2 pages, 108756 bytes).
+Output written on main.pdf (3 pages, 112950 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
- 14 compressed objects within 1 object stream
+ 24 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
