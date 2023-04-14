@@ -11,3 +11,8 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 \LoadClass{article}
+
+\renewcommand{\normalsize}{\fontsize{9}{12}\selectfont}
+
+% font weights: https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/base/fntguide.pdf
+\renewcommand\seriesdefault{m}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 20:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -64,7 +64,7 @@ LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/m/n' aliased to
 (Font)              `T1/NotoSerif-TLF/regular/n' on input line 112.
 LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/regular/n' will be
 (Font)              scaled to size 10.0pt on input line 112.
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -81,7 +81,7 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-02-14 L3 programming layer (loader) 
@@ -119,6 +119,10 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/m/n' aliased to
+(Font)              `T1/NotoSerif-TLF/regular/n' on input line 8.
+LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 8.
 \c@mv@tabular=\count181
 \c@mv@boldtabular=\count182
 LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/m/n' aliased to
@@ -144,33 +148,22 @@ LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/b/n' aliased to
 LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/bold/n' will be
 (Font)              scaled to size 14.4pt on input line 11.
 
-Overfull \hbox (3.62756pt too wide) in paragraph at lines 14--14
-\T1/NotoSerif-TLF/regular/n/10 vestibu-lum ut, plac-erat ac, adip-isc-ing vi-ta
-e, fe-lis. Cur-abitur dic-tum gravida
- []
-
-
-Overfull \hbox (2.99405pt too wide) in paragraph at lines 14--14
-[]\T1/NotoSerif-TLF/regular/n/10 Nam dui ligula, fringilla a, eu-is-mod so-dale
-s, sol-lic-i-tudin vel, wisi. Morbi
- []
-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 1928 strings out of 483107
- 40629 string characters out of 5964630
- 520936 words of memory out of 5000000
- 16962 multiletter control sequences out of 15000+600000
- 555299 words of font info for 42 fonts, out of 8000000 for 9000
+ 1930 strings out of 483107
+ 40679 string characters out of 5964630
+ 520942 words of memory out of 5000000
+ 16964 multiletter control sequences out of 15000+600000
+ 559030 words of font info for 43 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  38i,6n,39p,237b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/sh
 are/texlive/texmf-dist/fonts/enc/dvips/noto/nto_7xrktb.enc}</usr/share/texlive/
 texmf-dist/fonts/type1/google/noto/NotoSerif-Bold.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/google/noto/NotoSerif-Regular.pfb>
-Output written on main.pdf (2 pages, 34621 bytes).
+Output written on main.pdf (2 pages, 34594 bytes).
 PDF statistics:
  20 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream
