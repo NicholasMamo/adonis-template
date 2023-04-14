@@ -1,9 +1,21 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{elegantarticle}[2023/04/14 Elegant LaTeX article class]
 
+% OPTIONS
+
+\RequirePackage{ifthen}
+\newboolean{onecolumn}
+\setboolean{onecolumn}{false}
+
+\DeclareOption{onecolumn}{
+	\PassOptionsToClass{\CurrentOption}{article}
+	\setboolean{onecolumn}{true}
+}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 \LoadClass{article}
+
+% LAYOUT
 
 % the class requires 'Source Serif' to be installed
 % you may need to download and install  it, and then clear font cache using `fc-cache`
@@ -16,9 +28,15 @@
 \usepackage[LGR, T1]{fontenc}
 
 % page size and margins: https://www.overleaf.com/learn/latex/Page_size_and_margins
-\RequirePackage[a4paper, bindingoffset=0.2in,
-			left=40mm, right=40mm, top=57mm, bottom=57mm,
-			footskip=.25in]{geometry}
+\ifthenelse{\boolean{onecolumn}}{
+	\RequirePackage[a4paper, bindingoffset=0.2in,
+					left=40mm, right=40mm, top=57mm, bottom=57mm,
+					footskip=.25in]{geometry}
+}{
+	\RequirePackage[a4paper, bindingoffset=0.2in,
+					left=30mm, right=30mm, top=57mm, bottom=57mm,
+					footskip=.25in]{geometry}
+}
 
 % add space between columns
 \setlength{\columnsep}{10mm}

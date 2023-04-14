@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 21:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,6 +7,9 @@ entering extended mode
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (./elegantarticle.cls
 Document Class: elegantarticle 2023/04/14 Elegant LaTeX article class
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -646,14 +649,14 @@ LaTeX Font Info:    ... okay on input line 8.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * bindingoffset: 14.45377pt
 * modes: 
-* h-part:(L,W,R)=(113.81102pt, 355.43207pt, 113.81102pt)
+* h-part:(L,W,R)=(85.35826pt, 412.33759pt, 85.35826pt)
 * v-part:(T,H,B)=(162.1807pt, 520.68546pt, 162.1807pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=355.43207pt
+* \textwidth=412.33759pt
 * \textheight=520.68546pt
-* \oddsidemargin=55.9948pt
-* \evensidemargin=41.54103pt
+* \oddsidemargin=27.54204pt
+* \evensidemargin=13.08827pt
 * \topmargin=52.9107pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -693,103 +696,28 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/sc' will be
 (Font)              scaled to size 10.0pt on input line 11.
 
-Underfull \hbox (badness 1466) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 Lorem ip-sum do-lor sit amet, con-
+Underfull \hbox (badness 3138) in paragraph at lines 14--14
+\T1/SourceSerifPro-LF/m/n/10 libero, non-ummy eget, con-sectetuer id,
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 sectetuer adip-isc-ing elit. Ut pu-
+Underfull \hbox (badness 1546) in paragraph at lines 14--14
+\T1/SourceSerifPro-LF/m/n/10 ac turpis eges-tas. Mau-ris ut leo. Cras
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 adip-isc-ing vi-tae, fe-lis. Cur-abitur
+Underfull \hbox (badness 1394) in paragraph at lines 14--14
+\T1/SourceSerifPro-LF/m/n/10 dales, sol-lic-i-tudin vel, wisi. Morbi auc-
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 tus vestibu-lum urna fringilla ul-tri-
+Underfull \hbox (badness 1360) in paragraph at lines 14--14
+\T1/SourceSerifPro-LF/m/n/10 tor lorem non justo. Nam la-cus libero,
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 ac, nunc. Prae-sent eget sem vel
- []
-
-
-Underfull \hbox (badness 2103) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 ligula ali-quet magna, vi-tae ornare
- []
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 pe-nat-i-bus et mag-nis dis par-turi-ent
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 cor-per vestibu-lum turpis. Pel-len-
- []
-
-
-Underfull \hbox (badness 2707) in paragraph at lines 14--14
-[]\T1/SourceSerifPro-LF/m/n/10 Nulla male-suada port-ti-tor diam.
- []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 Donec fe-lis erat, congue non, vo-
- []
-
-
-Underfull \hbox (badness 7099) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 Vi-va-mus viverra fer-men-tum fe-lis.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 Phasel-lus adip-isc-ing sem-per elit.
- []
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 Proin fer-men-tum massa ac quam.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 Sed diam turpis, mo-lestie vi-tae,
- []
-
-
-Underfull \hbox (badness 1776) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 ce-nas lacinia. Nam ip-sum ligula,
- []
-
-
-Underfull \hbox (badness 2469) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 magna. Nunc eleifend con-se-quat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 Pel-len-tesque tin-cidunt pu-rus vel
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 eu-is-mod nunc eu pu-rus. Donec
- []
-
-
-Underfull \hbox (badness 2503) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 cur-sus pul-v-inar lec-tus. Donec et
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 Vestibu-lum pel-len-tesque fe-lis eu
+Underfull \hbox (badness 2351) in paragraph at lines 14--14
+\T1/SourceSerifPro-LF/m/n/10 fe-lis erat, congue non, vo-lut-pat at, tin-
  []
 
 
@@ -799,111 +727,47 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 Quisque ul-lam-cor-per plac-erat ip-
+Underfull \hbox (badness 1092) in paragraph at lines 18--18
+\T1/SourceSerifPro-LF/m/n/10 sus, magna. Donec eu pu-rus. Quisque
  []
 
 
 Underfull \hbox (badness 1137) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 sum. Cras nibh. Morbi vel justo
+\T1/SourceSerifPro-LF/m/n/10 ve-hic-ula, urna sed ul-tricies auc-tor, pede
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 adip-isc-ing elit. In hac habitasse
+Underfull \hbox (badness 3323) in paragraph at lines 18--18
+\T1/SourceSerifPro-LF/m/n/10 est, non-ummy in, fer-men-tum fau-cibus,
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 platea dic-tumst. In-te-ger tem-pus
+Underfull \hbox (badness 1354) in paragraph at lines 18--18
+\T1/SourceSerifPro-LF/m/n/10 vo-lut-pat a, ornare ac, erat. Morbi quis
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 con-va-l-lis au-gue. Etiam fa-cil-i-sis.
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]\T1/SourceSerifPro-LF/m/n/10 Pellentesque habi-tant morbi tris-tique
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 Nunc el-e-men-tum fer-men-tum wisi.
- []
-
-
-Underfull \hbox (badness 2582) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 sed gravida sol-lic-i-tudin, fe-lis odio
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 18--18
-[]\T1/SourceSerifPro-LF/m/n/10 Suspendisse vel fe-lis. Ut lorem
- []
-
-
-Underfull \hbox (badness 3568) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 lorem, in-ter-dum eu, tin-cidunt sit
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 amet, laoreet vi-tae, arcu. Ae-nean
- []
-
-
-Underfull \hbox (badness 2744) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 tricies auc-tor, pede lorem eges-tas
- []
-
-
-Underfull \hbox (badness 1226) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 Sed ve-hic-ula hen-drerit sem. Duis
- []
-
-
-Underfull \hbox (badness 2653) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 tin-cidunt. Mau-ris fe-lis odio, sol-
+Underfull \hbox (badness 1442) in paragraph at lines 18--18
+\T1/SourceSerifPro-LF/m/n/10 vi-tae, dui. Sed ante tel-lus, tris-tique ut,
  []
 
 
 Underfull \vbox (badness 3724) has occurred while \output is active []
 
  [2]
-Underfull \hbox (badness 5490) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 fames ac turpis eges-tas. Donec
- []
-
-
-Underfull \hbox (badness 2302) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 odio elit, dic-tum in, hen-drerit sit
- []
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 amet, eges-tas sed, leo. Prae-sent
- []
-
-
-Underfull \hbox (badness 2173) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 feu-giat sapien ali-quet odio. In-te-
- []
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 fringilla lorem. Sed neque lec-tus,
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 con-sectetuer at, con-sectetuer sed,
- []
-
 [3
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3538 strings out of 483107
- 65240 string characters out of 5964630
- 543890 words of memory out of 5000000
- 18536 multiletter control sequences out of 15000+600000
+ 3589 strings out of 483107
+ 65802 string characters out of 5964630
+ 545602 words of memory out of 5000000
+ 18584 multiletter control sequences out of 15000+600000
  621464 words of font info for 43 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  41i,7n,41p,459b,213s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -912,7 +776,7 @@ mhce32.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbt
 kr.enc}</usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSan
 sPro-Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifp
 ro/SourceSerifPro-Regular.pfb>
-Output written on main.pdf (3 pages, 109314 bytes).
+Output written on main.pdf (3 pages, 109005 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
