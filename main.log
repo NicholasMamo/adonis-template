@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 21:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 21:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -682,30 +682,38 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 9.
-LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 11.
-LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/k/n' will be
-(Font)              scaled to size 14.4pt on input line 11.
+LaTeX Font Info:    Trying to load font information for T1+SourceSansPro-LF on 
+input line 11.
+(/usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/T1SourceSansPro-LF.fd
+File: T1SourceSansPro-LF.fd 2016/12/03 (autoinst) Font definitions for T1/Sourc
+eSansPro-LF.
+)
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 11.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/sc' will be
+(Font)              scaled to size 10.0pt on input line 11.
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3473 strings out of 483107
- 63332 string characters out of 5964630
- 542613 words of memory out of 5000000
- 18476 multiletter control sequences out of 15000+600000
- 649904 words of font info for 43 fonts, out of 8000000 for 9000
+ 3538 strings out of 483107
+ 65240 string characters out of 5964630
+ 542895 words of memory out of 5000000
+ 18536 multiletter control sequences out of 15000+600000
+ 621464 words of font info for 43 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  41i,6n,41p,459b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/us
-r/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbtkr.enc}</usr/sh
-are/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/SourceSerifPro-Black.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/SourceSerifPr
-o-Regular.pfb>
-Output written on main.pdf (3 pages, 121247 bytes).
+r/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_mhce32.enc}{/usr/sha
+re/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbtkr.enc}</usr/share/t
+exlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Semibold.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/SourceSerifPro-Re
+gular.pfb>
+Output written on main.pdf (3 pages, 108782 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 24 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

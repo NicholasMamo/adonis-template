@@ -26,3 +26,15 @@
 
 % font weights: https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/base/fntguide.pdf
 \renewcommand\seriesdefault{m}
+
+% From: https://latexref.xyz/_005c_0040startsection.html
+% More on plus and minus: https://latexref.xyz/Lengths.html
+\renewcommand{\section}{
+	\@startsection
+	{section} % name
+	{1}       % level
+	{0pt}     % indent
+	{-5ex plus -1ex minus -.2ex} % beforeskip
+	{1ex plus 0.2ex minus -.2ex} % afterskip
+	{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont}
+}
