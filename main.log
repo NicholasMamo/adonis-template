@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 20:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 20:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,6 +7,23 @@ entering extended mode
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (./elegantarticle.cls
 Document Class: elegantarticle 2023/04/14 Elegant LaTeX article class
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
 (/usr/share/texlive/texmf-dist/tex/latex/noto/noto-serif.sty
 Package: noto-serif 2019/10/22 (Bob Tennent) Supports NotoSerif fonts for all L
 aTeX engines.
@@ -29,7 +46,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@tempa@toks=\toks15
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count167
+\XKV@depth=\count175
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
@@ -65,22 +82,24 @@ LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/m/n' aliased to
 LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/regular/n' will be
 (Font)              scaled to size 10.0pt on input line 112.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\c@part=\count168
-\c@section=\count169
-\c@subsection=\count170
-\c@subsubsection=\count171
-\c@paragraph=\count172
-\c@subparagraph=\count173
-\c@figure=\count174
-\c@table=\count175
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen134
+\Gm@cnth=\count176
+\Gm@cntv=\count177
+\c@Gm@tempcnt=\count178
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks16
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -88,15 +107,15 @@ Package: expl3 2020-02-14 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count176
+\l__kernel_color_stack_int=\count179
 \l__pdf_internal_box=\box45
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count177
-\g__xparse_grabber_int=\count178
-\l__xparse_m_args_int=\count179
-\l__xparse_v_nesting_int=\count180
+\l__xparse_current_arg_int=\count180
+\g__xparse_grabber_int=\count181
+\l__xparse_m_args_int=\count182
+\l__xparse_v_nesting_int=\count183
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
@@ -123,8 +142,44 @@ LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/m/n' aliased to
 (Font)              `T1/NotoSerif-TLF/regular/n' on input line 8.
 LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/regular/n' will be
 (Font)              scaled to size 9.0pt on input line 8.
-\c@mv@tabular=\count181
-\c@mv@boldtabular=\count182
+\c@mv@tabular=\count184
+\c@mv@boldtabular=\count185
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.45377pt
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 355.43207pt, 113.81102pt)
+* v-part:(T,H,B)=(162.1807pt, 520.68546pt, 162.1807pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=355.43207pt
+* \textheight=520.68546pt
+* \oddsidemargin=55.9948pt
+* \evensidemargin=41.54103pt
+* \topmargin=52.9107pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=18.06749pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/m/n' aliased to
 (Font)              `T1/NotoSerif-TLF/regular/n' on input line 9.
 LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/regular/n' will be
@@ -147,23 +202,22 @@ LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/b/n' aliased to
 (Font)              `T1/NotoSerif-TLF/bold/n' on input line 11.
 LaTeX Font Info:    Font shape `T1/NotoSerif-TLF/bold/n' will be
 (Font)              scaled to size 14.4pt on input line 11.
-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 1930 strings out of 483107
- 40679 string characters out of 5964630
- 520942 words of memory out of 5000000
- 16964 multiletter control sequences out of 15000+600000
+ 2398 strings out of 483107
+ 47475 string characters out of 5964630
+ 534671 words of memory out of 5000000
+ 17426 multiletter control sequences out of 15000+600000
  559030 words of font info for 43 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 38i,6n,39p,237b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,41p,237b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/sh
 are/texlive/texmf-dist/fonts/enc/dvips/noto/nto_7xrktb.enc}</usr/share/texlive/
 texmf-dist/fonts/type1/google/noto/NotoSerif-Bold.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/google/noto/NotoSerif-Regular.pfb>
-Output written on main.pdf (2 pages, 34594 bytes).
+Output written on main.pdf (2 pages, 34582 bytes).
 PDF statistics:
  20 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream
