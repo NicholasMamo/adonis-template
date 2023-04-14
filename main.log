@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 21:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  14 APR 2023 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -649,14 +649,14 @@ LaTeX Font Info:    ... okay on input line 8.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * bindingoffset: 14.45377pt
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 412.33759pt, 85.35826pt)
+* h-part:(L,W,R)=(71.13188pt, 440.79034pt, 71.13188pt)
 * v-part:(T,H,B)=(162.1807pt, 520.68546pt, 162.1807pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=412.33759pt
+* \textwidth=440.79034pt
 * \textheight=520.68546pt
-* \oddsidemargin=27.54204pt
-* \evensidemargin=13.08827pt
+* \oddsidemargin=13.31566pt
+* \evensidemargin=-1.1381pt
 * \topmargin=52.9107pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -696,90 +696,56 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/sc' will be
 (Font)              scaled to size 10.0pt on input line 11.
 
-Underfull \hbox (badness 3138) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 libero, non-ummy eget, con-sectetuer id,
+Underfull \hbox (badness 3386) in paragraph at lines 14--14
+\T1/SourceSerifPro-LF/m/n/10 Lorem ip-sum do-lor sit amet, con-sectetuer
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 ac turpis eges-tas. Mau-ris ut leo. Cras
+Underfull \hbox (badness 2856) in paragraph at lines 14--14
+\T1/SourceSerifPro-LF/m/n/10 dic-tum gravida mau-ris. Nam arcu libero,
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 dales, sol-lic-i-tudin vel, wisi. Morbi auc-
+Underfull \hbox (badness 1552) in paragraph at lines 18--18
+\T1/SourceSerifPro-LF/m/n/10 Quisque ul-lam-cor-per plac-erat ip-sum. Cras
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 tor lorem non justo. Nam la-cus libero,
+Underfull \hbox (badness 1158) in paragraph at lines 18--18
+\T1/SourceSerifPro-LF/m/n/10 nibh. Morbi vel justo vi-tae la-cus tin-cidunt
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 14--14
-\T1/SourceSerifPro-LF/m/n/10 fe-lis erat, congue non, vo-lut-pat at, tin-
+Underfull \hbox (badness 2050) in paragraph at lines 18--18
+\T1/SourceSerifPro-LF/m/n/10 sectetuer adip-isc-ing elit. In hac habitasse
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 1092) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 sus, magna. Donec eu pu-rus. Quisque
+Underfull \hbox (badness 1215) in paragraph at lines 18--18
+\T1/SourceSerifPro-LF/m/n/10 ali-quet odio. In-te-ger vi-tae justo. Ali-quam
  []
 
-
-Underfull \hbox (badness 1137) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 ve-hic-ula, urna sed ul-tricies auc-tor, pede
- []
-
-
-Underfull \hbox (badness 3323) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 est, non-ummy in, fer-men-tum fau-cibus,
- []
-
-
-Underfull \hbox (badness 1354) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 vo-lut-pat a, ornare ac, erat. Morbi quis
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
-[]\T1/SourceSerifPro-LF/m/n/10 Pellentesque habi-tant morbi tris-tique
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 18--18
-\T1/SourceSerifPro-LF/m/n/10 vi-tae, dui. Sed ante tel-lus, tris-tique ut,
- []
-
-
-Underfull \vbox (badness 3724) has occurred while \output is active []
-
- [2]
-[3
-
-] (./main.aux) ) 
+[2] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3589 strings out of 483107
- 65802 string characters out of 5964630
- 545602 words of memory out of 5000000
- 18584 multiletter control sequences out of 15000+600000
+ 3591 strings out of 483107
+ 65818 string characters out of 5964630
+ 545518 words of memory out of 5000000
+ 18586 multiletter control sequences out of 15000+600000
  621464 words of font info for 43 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  41i,7n,41p,459b,213s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_
-mhce32.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbt
-kr.enc}</usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSan
-sPro-Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifp
-ro/SourceSerifPro-Regular.pfb>
-Output written on main.pdf (3 pages, 109005 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/
+a_mhce32.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rl
+btkr.enc}</usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceS
+ansPro-Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceseri
+fpro/SourceSerifPro-Regular.pfb>
+Output written on main.pdf (2 pages, 108756 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 21 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

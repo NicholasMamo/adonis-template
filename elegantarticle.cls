@@ -28,21 +28,17 @@
 \usepackage[LGR, T1]{fontenc}
 
 % page size and margins: https://www.overleaf.com/learn/latex/Page_size_and_margins
-\ifthenelse{\boolean{onecolumn}}{
-	\RequirePackage[a4paper, bindingoffset=0.2in,
-					left=40mm, right=40mm, top=57mm, bottom=57mm,
-					footskip=.25in]{geometry}
-}{
-	\RequirePackage[a4paper, bindingoffset=0.2in,
-					left=30mm, right=30mm, top=57mm, bottom=57mm,
-					footskip=.25in]{geometry}
-}
+\ifthenelse{\boolean{onecolumn}}{\def\margin{40mm}}{\def\margin{25mm}}
+\RequirePackage[a4paper, bindingoffset=0.2in,
+				left=\margin, right=\margin, top=57mm, bottom=57mm,
+				footskip=.25in]{geometry}
 
 % add space between columns
 \setlength{\columnsep}{10mm}
 
 % font size: https://www.overleaf.com/learn/latex/Writing_your_own_class#Options
-\renewcommand{\normalsize}{\fontsize{10}{14}\selectfont}
+\ifthenelse{\boolean{onecolumn}}{\def\lineheight{14}}{\def\lineheight{13}}
+\renewcommand{\normalsize}{\fontsize{10}{\lineheight}\selectfont}
 \renewcommand\familydefault{\rmdefault}
 
 % font weights: https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/base/fntguide.pdf
