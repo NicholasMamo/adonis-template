@@ -59,6 +59,14 @@
 \newcommand\correspondence[1]{\gdef\@correspondence{#1}}
 \renewcommand\abstract[1]{\gdef\@abstract{#1}}
 
+% header
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\thispagestyle{empty} % not on first page
+\lhead{\footnotesize \@author}
+\rhead{\footnotesize \@title}
+\cfoot{\footnotesize \thepage}
+
 \DeclareFloatingEnvironment[placement={!b}]{frontmatter}
 \newenvironment{frontmattercontainer}[1][]{
 	\begin{frontmatter}

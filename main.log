@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,11 +417,24 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen142
 \Gm@dimlist=\toks17
 )
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip116
+\f@nch@O@elh=\skip117
+\f@nch@O@erh=\skip118
+\f@nch@O@olh=\skip119
+\f@nch@O@orh=\skip120
+\f@nch@O@elf=\skip121
+\f@nch@O@erf=\skip122
+\f@nch@O@olf=\skip123
+\f@nch@O@orf=\skip124
+)
 Package newfloat Info: New float `frontmatter' with options `placement={!b}' on
- input line 62.
+ input line 70.
 \c@frontmatter=\count192
 \newfloat@ftype=\count193
-Package newfloat Info: float type `frontmatter'=8 on input line 62.
+Package newfloat Info: float type `frontmatter'=8 on input line 70.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
@@ -619,13 +632,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5201 strings out of 483107
- 90025 string characters out of 5964630
- 604092 words of memory out of 5000000
- 20121 multiletter control sequences out of 15000+600000
+ 5331 strings out of 483107
+ 91545 string characters out of 5964630
+ 606194 words of memory out of 5000000
+ 20247 multiletter control sequences out of 15000+600000
  736188 words of font info for 55 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 51i,7n,41p,852b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,15n,49p,852b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_mhce32.enc}{/u
 sr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_5mjl2d.enc}{/usr/s
 hare/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbtkr.enc}</usr/share
@@ -633,7 +646,7 @@ hare/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbtkr.enc}</usr/share
 </usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/SourceSerifPro-
 It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/SourceSe
 rifPro-Regular.pfb>
-Output written on main.pdf (3 pages, 137415 bytes).
+Output written on main.pdf (3 pages, 137659 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
