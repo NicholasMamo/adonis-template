@@ -43,6 +43,7 @@
 % font weights: https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/base/fntguide.pdf
 \renewcommand\seriesdefault{m}
 
+\newcommand\affiliation[1]{\gdef\@affiliation{#1}}
 \renewcommand{\maketitle}{
 	{\noindent\fontsize{20}{20}\selectfont\@title\smallskip\par}
 	{\noindent\fontshape{it}\selectfont\@author\par}

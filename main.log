@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -246,28 +246,28 @@ File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 )) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 8.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 8
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 9.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 9
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    ... okay on input line 9.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -305,74 +305,74 @@ LaTeX Font Info:    ... okay on input line 8.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
-(Font)              scaled to size 20.0pt on input line 9.
+(Font)              scaled to size 20.0pt on input line 10.
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 9.
+(Font)              scaled to size 10.0pt on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 9.
+(Font)              <7> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 9.
+(Font)              <5> on input line 10.
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 9.
+(Font)              scaled to size 7.0pt on input line 10.
 LaTeX Font Info:    Trying to load font information for T1+SourceSansPro-LF on 
-input line 11.
+input line 12.
 (/usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/T1SourceSansPro-LF.fd
 File: T1SourceSansPro-LF.fd 2016/12/03 (autoinst) Font definitions for T1/Sourc
 eSansPro-LF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 11.
+(Font)              scaled to size 10.0pt on input line 12.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/sc' will be
-(Font)              scaled to size 10.0pt on input line 11.
+(Font)              scaled to size 10.0pt on input line 12.
 
-Underfull \hbox (badness 3386) in paragraph at lines 14--14
+Underfull \hbox (badness 3386) in paragraph at lines 15--15
 \T1/SourceSerifPro-LF/m/n/10 Lorem ip-sum do-lor sit amet, con-sectetuer
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 14--14
+Underfull \hbox (badness 2856) in paragraph at lines 15--15
 \T1/SourceSerifPro-LF/m/n/10 dic-tum gravida mau-ris. Nam arcu libero,
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 18--18
+Underfull \hbox (badness 1552) in paragraph at lines 19--19
 \T1/SourceSerifPro-LF/m/n/10 Quisque ul-lam-cor-per plac-erat ip-sum. Cras
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 18--18
+Underfull \hbox (badness 1158) in paragraph at lines 19--19
 \T1/SourceSerifPro-LF/m/n/10 nibh. Morbi vel justo vi-tae la-cus tin-cidunt
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 18--18
+Underfull \hbox (badness 2050) in paragraph at lines 19--19
 \T1/SourceSerifPro-LF/m/n/10 sectetuer adip-isc-ing elit. In hac habitasse
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 1215) in paragraph at lines 18--18
+Underfull \hbox (badness 1215) in paragraph at lines 19--19
 \T1/SourceSerifPro-LF/m/n/10 ali-quet odio. In-te-ger vi-tae justo. Ali-quam
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 22--22
+Underfull \hbox (badness 2460) in paragraph at lines 23--23
 \T1/SourceSerifPro-LF/m/n/10 nibh est plac-erat odio, nec com-modo wisi
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 26--26
+Underfull \hbox (badness 1681) in paragraph at lines 27--27
 \T1/SourceSerifPro-LF/m/n/10 ornare in, ul-lam-cor-per quis, com-modo eu,
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 26--26
+Underfull \hbox (badness 1817) in paragraph at lines 27--27
 \T1/SourceSerifPro-LF/m/n/10 libero. Fusce sagit-tis erat at erat tris-tique
  []
 
 [2]
-Underfull \hbox (badness 1546) in paragraph at lines 30--30
+Underfull \hbox (badness 1546) in paragraph at lines 31--31
 \T1/SourceSerifPro-LF/m/n/10 pe-nat-i-bus et mag-nis dis par-turi-ent montes,
  []
 
@@ -380,10 +380,10 @@ Underfull \hbox (badness 1546) in paragraph at lines 30--30
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2455 strings out of 483107
- 46879 string characters out of 5964630
- 539555 words of memory out of 5000000
- 17472 multiletter control sequences out of 15000+600000
+ 2457 strings out of 483107
+ 46902 string characters out of 5964630
+ 539603 words of memory out of 5000000
+ 17474 multiletter control sequences out of 15000+600000
  635737 words of font info for 36 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  41i,4n,41p,251b,127s stack positions out of 5000i,500n,10000p,200000b,80000s
