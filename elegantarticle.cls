@@ -46,6 +46,7 @@
 \renewcommand{\tiny}{\fontsize{7}{10}\selectfont}
 \renewcommand{\footnotesize}{\fontsize{8}{11}\selectfont}
 \renewcommand{\small}{\fontsize{9}{12.5}\selectfont}
+\renewcommand{\huge}{\fontsize{20}{24}\selectfont}
 \renewcommand{\normalsize}{\fontsize{10}{\lineheight}\selectfont}
 \renewcommand\familydefault{\rmdefault}
 
@@ -55,11 +56,12 @@
 % variables
 \newcommand\affiliation[1]{\gdef\@affiliation{#1}}
 \newcommand\correspondence[1]{\gdef\@correspondence{#1}}
+\renewcommand\abstract[1]{\gdef\@abstract{#1}}
 
 \DeclareFloatingEnvironment[placement={!b}]{frontmatter}
 \newenvironment{frontmattercontainer}[1][]{
 	\begin{frontmatter}
-		\begin{mdframed}[linecolor=black, linewidth=0.25mm,
+		\begin{mdframed}[linecolor=black, linewidth=0.5pt,
 						 innertopmargin=0.25cm, innerrightmargin=0, innerbottommargin=0, innerleftmargin=0,
 						 topline=true, rightline=false, bottomline=false, leftline=false]
 		\footnotesize
@@ -69,8 +71,9 @@
 }
 
 \renewcommand{\maketitle}{
-	{\noindent\fontsize{20}{20}\selectfont\@title\smallskip\par}
-	{\noindent\fontshape{it}\selectfont\@author\par}
+	{\noindent \huge \selectfont \@title \smallskip \par}
+	{\noindent \small \selectfont \@author \par}
+	{\noindent \normalsize \fontshape{it} \selectfont \@abstract \bigskip \par}
 	\begin{frontmattercontainer}
 		\@affiliation \par
 		{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
