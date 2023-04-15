@@ -71,9 +71,10 @@
 }
 
 \renewcommand{\maketitle}{
-	{\noindent \huge \selectfont \@title \vspace{0.1cm} \par}
-	{\noindent \small \selectfont \@author \vspace{0.25cm} \par}
-	{\noindent \normalsize \fontshape{it} \selectfont \@abstract \bigskip \par}
+	\noindent
+	{\huge \selectfont \@title \vspace{0.1cm} \\}
+	{\small \selectfont \@author \vspace{0.25cm} \\}
+	{\normalsize \fontshape{it} \selectfont \@abstract \bigskip \\}
 	\begin{frontmattercontainer}
 		\@affiliation \par
 		{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
