@@ -6,11 +6,14 @@
 \RequirePackage{ifthen}
 \newboolean{twocolumn}
 \setboolean{twocolumn}{false}
+\newboolean{wide}
+\setboolean{wide}{false}
 
 \DeclareOption{twocolumn}{
 	\PassOptionsToClass{\CurrentOption}{article}
 	\setboolean{twocolumn}{true}
 }
+\DeclareOption{wide}{\setboolean{wide}{true}}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 \LoadClass{article}
@@ -34,7 +37,7 @@
 \definecolor{black}{rgb}{0,0,0}
 
 % page size and margins: https://www.overleaf.com/learn/latex/Page_size_and_margins
-\ifthenelse{\boolean{twocolumn}}{\def\margin{25mm}}{\def\margin{40mm}}
+\ifthenelse{\boolean{twocolumn} \or \boolean{wide}}{\def\margin{25mm}}{\def\margin{40mm}}
 \RequirePackage[a4paper, bindingoffset=0.2in,
 				left=\margin, right=\margin, top=57mm, bottom=57mm,
 				footskip=15mm]{geometry}
@@ -47,18 +50,14 @@
 \renewcommand{\tiny}{\fontsize{7}{10}\selectfont}
 \renewcommand{\footnotesize}{\fontsize{8}{11}\selectfont}
 \renewcommand{\small}{\fontsize{9.5}{12.5}\selectfont}
-\renewcommand{\huge}{\fontsize{20}{24}\selectfont}
 \renewcommand{\normalsize}{\fontsize{10}{\lineheight}\selectfont}
+\renewcommand{\large}{\fontsize{16}{19}\selectfont}
+\renewcommand{\huge}{\fontsize{20}{24}\selectfont}
 \renewcommand\familydefault{\rmdefault}
 
 % font weights: https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/base/fntguide.pdf
 \renewcommand\seriesdefault{m}
 \renewcommand\textbf[1]{\fontseries{sb}\selectfont#1}
-
-% variables
-\newcommand\affiliation[1]{\gdef\@affiliation{#1}}
-\newcommand\correspondence[1]{\gdef\@correspondence{#1}}
-\renewcommand\abstract[1]{\gdef\@abstract{#1}}
 
 % header
 \newcommand\runningauthor[1]{\gdef\@runningauthor{#1}}
@@ -70,6 +69,11 @@
 \lhead{\footnotesize \ifdefined\@runningauthor \@runningauthor \else \@author \fi}
 \rhead{\footnotesize \ifdefined\@runningtitle \@runningtitle \else \@title \fi}
 \cfoot{\footnotesize \thepage}
+
+% title
+\newcommand\affiliation[1]{\gdef\@affiliation{#1}}
+\newcommand\correspondence[1]{\gdef\@correspondence{#1}}
+\renewcommand\abstract[1]{\gdef\@abstract{#1}}
 
 \DeclareFloatingEnvironment[placement={!b}]{frontmatter}
 \newenvironment{frontmattercontainer}[1][]{
