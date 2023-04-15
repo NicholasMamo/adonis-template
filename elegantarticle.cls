@@ -46,7 +46,7 @@
 \ifthenelse{\boolean{twocolumn}}{\def\lineheight{13}}{\def\lineheight{14}}
 \renewcommand{\tiny}{\fontsize{7}{10}\selectfont}
 \renewcommand{\footnotesize}{\fontsize{8}{11}\selectfont}
-\renewcommand{\small}{\fontsize{9}{12.5}\selectfont}
+\renewcommand{\small}{\fontsize{9.5}{12.5}\selectfont}
 \renewcommand{\huge}{\fontsize{20}{24}\selectfont}
 \renewcommand{\normalsize}{\fontsize{10}{\lineheight}\selectfont}
 \renewcommand\familydefault{\rmdefault}
@@ -72,7 +72,7 @@
 	\noindent
 	{\huge \selectfont \@title \vspace{0.1cm} \\}
 	{\small \selectfont \@author \vspace{0.25cm} \\}
-	{\normalsize \fontshape{it} \selectfont \@abstract \bigskip \\}
+	{\small \fontshape{it} \selectfont \@abstract \bigskip \\}
 	{\rule{\linewidth}{0.5pt} }
 	\ifthenelse{\boolean{twocolumn}}{\vspace{\fill}}{}
 	\begin{frontmattercontainer}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 18:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -507,21 +507,40 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
 (Font)              scaled to size 20.0pt on input line 15.
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 15.
+(Font)              scaled to size 9.5pt on input line 15.
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 15.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 15.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <9.5> not available
+(Font)              size <9> substituted on input line 15.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 15.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 15.
+(Font)              <9.5> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6.64996> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <4.75> on input line 15.
+LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
+(Font)              scaled to size 6.64996pt on input line 15.
+LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/it' will be
+(Font)              scaled to size 9.5pt on input line 15.
+LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 15.
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 15.
-LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 15.
-LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 15.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
 LaTeX Font Info:    Trying to load font information for T1+SourceSansPro-LF on 
 input line 15.
 (/usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/T1SourceSansPro-LF.fd
@@ -593,23 +612,28 @@ Underfull \hbox (badness 1546) in paragraph at lines 36--36
 \T1/SourceSerifPro-LF/m/n/10 pe-nat-i-bus et mag-nis dis par-turi-ent montes,
  []
 
-[3] (./main.aux) ) 
+[3] (./main.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5187 strings out of 483107
- 89756 string characters out of 5964630
- 604050 words of memory out of 5000000
- 20108 multiletter control sequences out of 15000+600000
- 713947 words of font info for 53 fonts, out of 8000000 for 9000
+ 5201 strings out of 483107
+ 90025 string characters out of 5964630
+ 604092 words of memory out of 5000000
+ 20121 multiletter control sequences out of 15000+600000
+ 736188 words of font info for 55 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  51i,7n,41p,852b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/
-a_mhce32.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_5m
-jl2d.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbtkr
-.enc}</usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansP
-ro-Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro
-/SourceSerifPro-It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sources
-erifpro/SourceSerifPro-Regular.pfb>
-Output written on main.pdf (3 pages, 137397 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_mhce32.enc}{/u
+sr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_5mjl2d.enc}{/usr/s
+hare/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbtkr.enc}</usr/share
+/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Semibold.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/SourceSerifPro-
+It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/SourceSe
+rifPro-Regular.pfb>
+Output written on main.pdf (3 pages, 137415 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
