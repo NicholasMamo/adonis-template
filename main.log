@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 18:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -399,12 +399,12 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen142
 \Gm@dimlist=\toks17
 )
-Package color Info: Redefining color black on input line 52.
+Package color Info: Redefining color black on input line 55.
 Package newfloat Info: New float `frontmatter' with options `placement={!b}' on
- input line 54.
+ input line 57.
 \c@frontmatter=\count192
 \newfloat@ftype=\count193
-Package newfloat Info: float type `frontmatter'=8 on input line 54.
+Package newfloat Info: float type `frontmatter'=8 on input line 57.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
@@ -498,9 +498,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/it' will be
 (Font)              scaled to size 7.0pt on input line 10.
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 10.
+(Font)              scaled to size 8.0pt on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 10.
+(Font)              <8> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 10.
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
@@ -577,11 +577,11 @@ Underfull \hbox (badness 1546) in paragraph at lines 31--31
 Here is how much of TeX's memory you used:
  4747 strings out of 483107
  84733 string characters out of 5964630
- 594003 words of memory out of 5000000
+ 594021 words of memory out of 5000000
  19679 multiletter control sequences out of 15000+600000
  682042 words of font info for 46 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 51i,7n,41p,852b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,7n,41p,852b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_
 mhce32.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_5mjl
 2d.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbtkr.e
@@ -589,7 +589,7 @@ nc}</usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro
 -Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/S
 ourceSerifPro-It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceser
 ifpro/SourceSerifPro-Regular.pfb>
-Output written on main.pdf (3 pages, 131908 bytes).
+Output written on main.pdf (3 pages, 131910 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream

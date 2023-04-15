@@ -40,6 +40,9 @@
 
 % font size: https://www.overleaf.com/learn/latex/Writing_your_own_class
 \ifthenelse{\boolean{twocolumn}}{\def\lineheight{13}}{\def\lineheight{14}}
+\renewcommand{\tiny}{\fontsize{7}{7}\selectfont}
+\renewcommand{\footnotesize}{\fontsize{8}{8}\selectfont}
+\renewcommand{\small}{\fontsize{9}{9}\selectfont}
 \renewcommand{\normalsize}{\fontsize{10}{\lineheight}\selectfont}
 \renewcommand\familydefault{\rmdefault}
 
@@ -57,7 +60,7 @@
 		\begin{mdframed}[linecolor=black, linewidth=0.25mm,
 						 innertopmargin=0.25cm, innerrightmargin=0, innerbottommargin=0, innerleftmargin=0,
 						 topline=true, rightline=false, bottomline=false, leftline=false]
-		\small
+		\footnotesize
 		}{
 		\end{mdframed}
 	\end{frontmatter}
