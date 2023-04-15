@@ -87,9 +87,17 @@
 	{\rule{\linewidth}{0.5pt} }
 	\ifthenelse{\boolean{twocolumn}}{\vspace{\fill}}{}
 	\begin{frontmattercontainer}
-		\@affiliation \par
-		{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
-		{\sffamily\fontseries{sb}\selectfont\scshape Correspondence} \@correspondence \par
+		\ifdefined \@affiliation
+			\@affiliation \par
+		\fi
+		
+		\ifdefined \@date
+			{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
+		\fi
+		
+		\ifdefined \@correspondence
+			{\sffamily\fontseries{sb}\selectfont\scshape Correspondence} \@correspondence \par
+		\fi
 	\end{frontmattercontainer}
 }
 
