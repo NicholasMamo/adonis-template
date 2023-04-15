@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -505,16 +505,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 10.
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 10.
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 10.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 10.
 LaTeX Font Info:    Trying to load font information for T1+SourceSansPro-LF on 
-input line 12.
+input line 10.
 (/usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/T1SourceSansPro-LF.fd
 File: T1SourceSansPro-LF.fd 2016/12/03 (autoinst) Font definitions for T1/Sourc
 eSansPro-LF.
 )
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 10.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/n' will be
+(Font)              scaled to size 8.0pt on input line 10.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/sc' will be
+(Font)              scaled to size 8.0pt on input line 10.
+Package mdframed Info: mdframed inside float 
+ mdframed uses option nobreak mdframed on input line 10.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 10.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 12.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/sc' will be
@@ -575,13 +581,13 @@ Underfull \hbox (badness 1546) in paragraph at lines 31--31
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 4747 strings out of 483107
- 84733 string characters out of 5964630
- 594021 words of memory out of 5000000
- 19679 multiletter control sequences out of 15000+600000
- 682042 words of font info for 46 fonts, out of 8000000 for 9000
+ 4752 strings out of 483107
+ 84876 string characters out of 5964630
+ 594061 words of memory out of 5000000
+ 19682 multiletter control sequences out of 15000+600000
+ 710419 words of font info for 50 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 51i,7n,41p,852b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,7n,41p,852b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_
 mhce32.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_5mjl
 2d.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbtkr.e
@@ -589,7 +595,7 @@ nc}</usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro
 -Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/S
 ourceSerifPro-It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceser
 ifpro/SourceSerifPro-Regular.pfb>
-Output written on main.pdf (3 pages, 131910 bytes).
+Output written on main.pdf (3 pages, 132315 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream

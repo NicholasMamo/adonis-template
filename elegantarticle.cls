@@ -40,9 +40,9 @@
 
 % font size: https://www.overleaf.com/learn/latex/Writing_your_own_class
 \ifthenelse{\boolean{twocolumn}}{\def\lineheight{13}}{\def\lineheight{14}}
-\renewcommand{\tiny}{\fontsize{7}{7}\selectfont}
-\renewcommand{\footnotesize}{\fontsize{8}{8}\selectfont}
-\renewcommand{\small}{\fontsize{9}{9}\selectfont}
+\renewcommand{\tiny}{\fontsize{7}{10}\selectfont}
+\renewcommand{\footnotesize}{\fontsize{8}{11}\selectfont}
+\renewcommand{\small}{\fontsize{9}{12.5}\selectfont}
 \renewcommand{\normalsize}{\fontsize{10}{\lineheight}\selectfont}
 \renewcommand\familydefault{\rmdefault}
 
@@ -71,6 +71,7 @@
 	{\noindent\fontshape{it}\selectfont\@author\par}
 	\begin{frontmattercontainer}
 		\@affiliation \par
+		{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
 	\end{frontmattercontainer}
 }
 
