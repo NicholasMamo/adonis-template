@@ -1,9 +1,10 @@
 \documentclass[twocolumn]{elegantarticle}
 \usepackage{lipsum}
+\usepackage{tabularx}
 
 \title{Article title}
-\author{Nicholas Mamo \textsuperscript{1, 2}}
-\affiliation{\textsuperscript{1} University of Malta, Msida, Malta \\ \textsuperscript{2} Independent}
+\author{Nicholas Mamo \textsuperscript{1}}
+\affiliation{\textsuperscript{1} Independent}
 \correspondence{nicholasmamo@gmail.com}
 \date{\today}
 \runningauthor{Nicholas Mamo}
@@ -27,6 +28,13 @@
 	\section{Methodology}
 	
 		\lipsum[9]
+		
+		\begin{table}[t!]
+			\begin{tabularx}{\linewidth}{ X r r }
+				\textbf{A} & \textbf{B} & \textbf{C} \\ \hline
+				Something & 1.00 & 2.00 \\
+			\end{tabularx}
+		\end{table}
 		
 		\subsection{Experimental setup}
 		

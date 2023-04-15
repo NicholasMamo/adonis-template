@@ -130,3 +130,7 @@
 	{-1ex plus 0.2ex minus -.2ex} % afterskip
 	{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont}
 }
+
+% tables
+\setlength{\tabcolsep}{10pt} % cell padding
+\renewcommand{\arraystretch}{1.5} % row spacing
