@@ -30,6 +30,7 @@
 \RequirePackage[sfdefault]{sourcesanspro}
 
 % colors
+\RequirePackage{xcolor}
 \definecolor{black}{rgb}{0,0,0}
 
 % page size and margins: https://www.overleaf.com/learn/latex/Page_size_and_margins
@@ -61,12 +62,9 @@
 \DeclareFloatingEnvironment[placement={!b}]{frontmatter}
 \newenvironment{frontmattercontainer}[1][]{
 	\begin{frontmatter}
-		\begin{mdframed}[linecolor=black, linewidth=0.5pt,
-						 innertopmargin=0.25cm, innerrightmargin=0, innerbottommargin=0, innerleftmargin=0,
-						 topline=true, rightline=false, bottomline=false, leftline=false]
+		\rule{\linewidth}{0.5pt}
 		\footnotesize
 		}{
-		\end{mdframed}
 	\end{frontmatter}
 }
 

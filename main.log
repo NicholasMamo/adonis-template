@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 18:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -380,9 +380,25 @@ ceSerifPro-LF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 112.
-))
-Package color Info: Redefining color black on input line 33.
- (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -402,10 +418,10 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks17
 )
 Package newfloat Info: New float `frontmatter' with options `placement={!b}' on
- input line 61.
+ input line 62.
 \c@frontmatter=\count192
 \newfloat@ftype=\count193
-Package newfloat Info: float type `frontmatter'=8 on input line 61.
+Package newfloat Info: float type `frontmatter'=8 on input line 62.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
@@ -518,10 +534,6 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/n' will be
 (Font)              scaled to size 8.0pt on input line 15.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/sc' will be
 (Font)              scaled to size 8.0pt on input line 15.
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 15.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 15.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 17.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/sc' will be
@@ -583,13 +595,13 @@ Underfull \hbox (badness 1546) in paragraph at lines 36--36
 
 [3] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 4761 strings out of 483107
- 84973 string characters out of 5964630
- 594984 words of memory out of 5000000
- 19688 multiletter control sequences out of 15000+600000
+ 5187 strings out of 483107
+ 89756 string characters out of 5964630
+ 604050 words of memory out of 5000000
+ 20108 multiletter control sequences out of 15000+600000
  713947 words of font info for 53 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 51i,8n,41p,852b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,7n,41p,852b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/
 a_mhce32.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_5m
 jl2d.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbtkr
@@ -597,7 +609,7 @@ jl2d.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbtkr
 ro-Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro
 /SourceSerifPro-It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sources
 erifpro/SourceSerifPro-Regular.pfb>
-Output written on main.pdf (3 pages, 137438 bytes).
+Output written on main.pdf (3 pages, 137397 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
