@@ -59,8 +59,8 @@
 \renewcommand{\subsection}{
 	\@startsection
 	{subsection} % name
-	{2}       % level
-	{0pt}     % indent
+	{2}          % level
+	{0pt}        % indent
 	{-5ex plus -1ex minus -.2ex} % beforeskip
 	{1ex plus 0.2ex minus -.2ex} % afterskip
 	{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont}
@@ -69,9 +69,9 @@
 \renewcommand{\subsubsection}{
 	\@startsection
 	{subsubsection} % name
-	{2}       % level
-	{0pt}     % indent
+	{2}             % level
+	{0pt}           % indent
 	{-5ex plus -1ex minus -.2ex} % beforeskip
-	{1ex plus 0.2ex minus -.2ex} % afterskip
+	{-1ex plus 0.2ex minus -.2ex} % afterskip
 	{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont}
 }
