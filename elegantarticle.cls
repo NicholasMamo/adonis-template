@@ -53,6 +53,7 @@
 
 % font weights: https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/base/fntguide.pdf
 \renewcommand\seriesdefault{m}
+\renewcommand\textbf[1]{\fontseries{sb}\selectfont#1}
 
 % variables
 \newcommand\affiliation[1]{\gdef\@affiliation{#1}}

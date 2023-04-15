@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 19:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 19:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -431,10 +431,10 @@ s
 \f@nch@O@orf=\skip124
 )
 Package newfloat Info: New float `frontmatter' with options `placement={!b}' on
- input line 73.
+ input line 74.
 \c@frontmatter=\count192
 \newfloat@ftype=\count193
-Package newfloat Info: float type `frontmatter'=8 on input line 73.
+Package newfloat Info: float type `frontmatter'=8 on input line 74.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
@@ -653,22 +653,22 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5443 strings out of 483107
- 92962 string characters out of 5964630
- 608175 words of memory out of 5000000
- 20351 multiletter control sequences out of 15000+600000
- 761688 words of font info for 57 fonts, out of 8000000 for 9000
+ 5442 strings out of 483107
+ 92959 string characters out of 5964630
+ 608181 words of memory out of 5000000
+ 20350 multiletter control sequences out of 15000+600000
+ 764829 words of font info for 57 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 51i,11n,49p,852b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,11n,49p,852b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbtkr.enc}{/
 usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_mhce32.enc}{/usr/s
 hare/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_5mjl2d.enc}</usr/share
 /texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Semibold.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/SourceSerifPro-
-Black.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/Sourc
-eSerifPro-It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpr
-o/SourceSerifPro-Regular.pfb>
-Output written on main.pdf (3 pages, 189370 bytes).
+It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/SourceSe
+rifPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserif
+pro/SourceSerifPro-Semibold.pfb>
+Output written on main.pdf (3 pages, 181219 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
