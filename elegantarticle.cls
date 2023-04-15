@@ -76,6 +76,7 @@
 	{\small \selectfont \@author \vspace{0.25cm} \\}
 	{\normalsize \fontshape{it} \selectfont \@abstract \bigskip \\}
 	{\rule{\linewidth}{0.5pt} }
+	\ifthenelse{\boolean{twocolumn}}{\vspace{\fill}}{}
 	\begin{frontmattercontainer}
 		\@affiliation \par
 		{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
