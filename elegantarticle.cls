@@ -29,6 +29,9 @@
 \RequirePackage[rmdefault,regular,black]{sourceserifpro}
 \RequirePackage[sfdefault]{sourcesanspro}
 
+% colors
+\definecolor{black}{rgb}{0,0,0}
+
 % page size and margins: https://www.overleaf.com/learn/latex/Page_size_and_margins
 \ifthenelse{\boolean{twocolumn}}{\def\margin{25mm}}{\def\margin{40mm}}
 \RequirePackage[a4paper, bindingoffset=0.2in,
@@ -51,8 +54,7 @@
 
 % variables
 \newcommand\affiliation[1]{\gdef\@affiliation{#1}}
-
-\definecolor{black}{rgb}{0,0,0}
+\newcommand\correspondence[1]{\gdef\@correspondence{#1}}
 
 \DeclareFloatingEnvironment[placement={!b}]{frontmatter}
 \newenvironment{frontmattercontainer}[1][]{
@@ -72,6 +74,7 @@
 	\begin{frontmattercontainer}
 		\@affiliation \par
 		{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
+		{\sffamily\fontseries{sb}\selectfont\scshape Correspondence} \@correspondence \par
 	\end{frontmattercontainer}
 }
 
