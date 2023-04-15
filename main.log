@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 19:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 19:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -632,17 +632,17 @@ Underfull \hbox (badness 2460) in paragraph at lines 31--31
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 42--42
+Underfull \hbox (badness 1681) in paragraph at lines 43--43
 \T1/SourceSerifPro-LF/m/n/10 ornare in, ul-lam-cor-per quis, com-modo eu,
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 42--42
+Underfull \hbox (badness 1817) in paragraph at lines 43--43
 \T1/SourceSerifPro-LF/m/n/10 libero. Fusce sagit-tis erat at erat tris-tique
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 46--46
+Underfull \hbox (badness 1546) in paragraph at lines 47--47
 \T1/SourceSerifPro-LF/m/n/10 pe-nat-i-bus et mag-nis dis par-turi-ent montes,
  []
 
@@ -653,10 +653,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5442 strings out of 483107
- 92959 string characters out of 5964630
- 608181 words of memory out of 5000000
- 20350 multiletter control sequences out of 15000+600000
+ 5443 strings out of 483107
+ 92971 string characters out of 5964630
+ 608189 words of memory out of 5000000
+ 20351 multiletter control sequences out of 15000+600000
  764829 words of font info for 57 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  51i,11n,49p,852b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -668,7 +668,7 @@ hare/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_5mjl2d.enc}</usr/share
 It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/SourceSe
 rifPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserif
 pro/SourceSerifPro-Semibold.pfb>
-Output written on main.pdf (3 pages, 181219 bytes).
+Output written on main.pdf (3 pages, 181811 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
