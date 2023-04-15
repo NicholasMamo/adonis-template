@@ -2,16 +2,21 @@
 \usepackage{lipsum}
 \usepackage{tabularx}
 
-\title{Article title}
+\title{Elegance: a guide}
 \author{Nicholas Mamo \textsuperscript{1}}
 \affiliation{\textsuperscript{1} Independent}
 \correspondence{nicholasmamo@gmail.com}
 \date{\today}
 \runningauthor{Nicholas Mamo}
-\runningtitle{Article title}
+\runningtitle{Elegance: a guide}
 
 \abstract{
-	\lipsum[1]
+	Academic writing does not have to be drab, and neither does the academic writing template.
+	The template should elevate the writing, not diminish it, but in academia, form normally follows function.
+	The { \upshape Elegant } template is my attempt to rectify that shortcoming.
+	I designed it as a no-frills but elegant template, built on the standard article template.
+	At its core, three principles: simplicity, readability and aesthetic.
+	May this template elevate your writing.
 }
 
 \begin{document}
@@ -20,6 +25,15 @@
 	\section{Introduction}
 	
 		\lipsum[1-3]
+		
+		\begin{table*}[t!]
+			\begin{tabularx}{\linewidth}{ l l X }
+				\textbf{Version} & \textbf{Date} & \textbf{Changelog} \\ \hline
+				0.1 & April 15, 2023 & Initial release \\
+			\end{tabularx}
+			\caption{The template's version history.}
+			\label{table: version history}
+		\end{table*}
 	
 	\section{Related work}
 	
@@ -28,14 +42,6 @@
 	\section{Methodology}
 	
 		\lipsum[9]
-		
-		\begin{table}[t!]
-			\begin{tabularx}{\linewidth}{ X r r }
-				\textbf{A} & \textbf{B} & \textbf{C} \\ \hline
-				Something & 1.00 & 2.00 \\
-			\end{tabularx}
-			\caption{\label{demo-table} Your very long caption.}
-		\end{table}
 		
 		\subsection{Experimental setup}
 		

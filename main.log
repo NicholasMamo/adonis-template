@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.12)  15 APR 2023 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -431,10 +431,10 @@ s
 \f@nch@O@orf=\skip124
 )
 Package newfloat Info: New float `frontmatter' with options `placement={!b}' on
- input line 74.
+ input line 78.
 \c@frontmatter=\count192
 \newfloat@ftype=\count193
-Package newfloat Info: float type `frontmatter'=8 on input line 74.
+Package newfloat Info: float type `frontmatter'=8 on input line 78.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
@@ -465,28 +465,28 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 17.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 1
-7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 22.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 2
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    ... okay on input line 22.
 \AtBeginShipoutBox=\box53
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -539,65 +539,65 @@ LaTeX Font Info:    ... okay on input line 17.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
-(Font)              scaled to size 20.0pt on input line 18.
+(Font)              scaled to size 20.0pt on input line 23.
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
-(Font)              scaled to size 9.5pt on input line 18.
-LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 18.
+(Font)              scaled to size 9.5pt on input line 23.
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 23.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <9.5> not available
-(Font)              size <9> substituted on input line 18.
+(Font)              size <9> substituted on input line 23.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <9.5> not available
-(Font)              size <9> substituted on input line 18.
+(Font)              size <9> substituted on input line 23.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <9.5> not available
-(Font)              size <9> substituted on input line 18.
+(Font)              size <9> substituted on input line 23.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.5> on input line 18.
+(Font)              <9.5> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.64996> on input line 18.
+(Font)              <6.64996> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.75> on input line 18.
+(Font)              <4.75> on input line 23.
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
-(Font)              scaled to size 6.64996pt on input line 18.
+(Font)              scaled to size 6.64996pt on input line 23.
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/it' will be
-(Font)              scaled to size 9.5pt on input line 18.
+(Font)              scaled to size 9.5pt on input line 23.
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 18.
+(Font)              scaled to size 8.0pt on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
+(Font)              <6> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
+(Font)              <5> on input line 23.
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 18.
+(Font)              scaled to size 6.0pt on input line 23.
 LaTeX Font Info:    Trying to load font information for T1+SourceSansPro-LF on 
-input line 18.
+input line 23.
 (/usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/T1SourceSansPro-LF.fd
 File: T1SourceSansPro-LF.fd 2016/12/03 (autoinst) Font definitions for T1/Sourc
 eSansPro-LF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 18.
+(Font)              scaled to size 8.0pt on input line 23.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/n' will be
-(Font)              scaled to size 8.0pt on input line 18.
+(Font)              scaled to size 8.0pt on input line 23.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/sc' will be
-(Font)              scaled to size 8.0pt on input line 18.
+(Font)              scaled to size 8.0pt on input line 23.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 20.
+(Font)              scaled to size 10.0pt on input line 25.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/sc' will be
-(Font)              scaled to size 10.0pt on input line 20.
+(Font)              scaled to size 10.0pt on input line 25.
 
-Underfull \hbox (badness 3386) in paragraph at lines 23--23
+Underfull \hbox (badness 3386) in paragraph at lines 28--28
 \T1/SourceSerifPro-LF/m/n/10 Lorem ip-sum do-lor sit amet, con-sectetuer
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 23--23
+Underfull \hbox (badness 2856) in paragraph at lines 28--28
 \T1/SourceSerifPro-LF/m/n/10 dic-tum gravida mau-ris. Nam arcu libero,
  []
 
@@ -607,42 +607,42 @@ Underfull \vbox (badness 2753) has occurred while \output is active []
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 1552) in paragraph at lines 27--27
+Underfull \hbox (badness 1552) in paragraph at lines 41--41
 \T1/SourceSerifPro-LF/m/n/10 Quisque ul-lam-cor-per plac-erat ip-sum. Cras
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 27--27
+Underfull \hbox (badness 1158) in paragraph at lines 41--41
 \T1/SourceSerifPro-LF/m/n/10 nibh. Morbi vel justo vi-tae la-cus tin-cidunt
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 27--27
+Underfull \hbox (badness 2050) in paragraph at lines 41--41
 \T1/SourceSerifPro-LF/m/n/10 sectetuer adip-isc-ing elit. In hac habitasse
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 27--27
+Underfull \hbox (badness 1215) in paragraph at lines 41--41
 \T1/SourceSerifPro-LF/m/n/10 ali-quet odio. In-te-ger vi-tae justo. Ali-quam
  []
 
 [2]
-Underfull \hbox (badness 2460) in paragraph at lines 31--31
+Underfull \hbox (badness 2460) in paragraph at lines 45--45
 \T1/SourceSerifPro-LF/m/n/10 nibh est plac-erat odio, nec com-modo wisi
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 43--43
+Underfull \hbox (badness 1681) in paragraph at lines 49--49
 \T1/SourceSerifPro-LF/m/n/10 ornare in, ul-lam-cor-per quis, com-modo eu,
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 43--43
+Underfull \hbox (badness 1817) in paragraph at lines 49--49
 \T1/SourceSerifPro-LF/m/n/10 libero. Fusce sagit-tis erat at erat tris-tique
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 47--47
+Underfull \hbox (badness 1546) in paragraph at lines 53--53
 \T1/SourceSerifPro-LF/m/n/10 pe-nat-i-bus et mag-nis dis par-turi-ent montes,
  []
 
@@ -653,13 +653,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5443 strings out of 483107
- 92971 string characters out of 5964630
- 608189 words of memory out of 5000000
- 20351 multiletter control sequences out of 15000+600000
+ 5447 strings out of 483107
+ 93013 string characters out of 5964630
+ 609286 words of memory out of 5000000
+ 20355 multiletter control sequences out of 15000+600000
  764829 words of font info for 57 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 51i,11n,49p,852b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,11n,49p,852b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_rlbtkr.enc}{/
 usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_mhce32.enc}{/usr/s
 hare/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_5mjl2d.enc}</usr/share
@@ -668,7 +668,7 @@ hare/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_5mjl2d.enc}</usr/share
 It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/SourceSe
 rifPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserif
 pro/SourceSerifPro-Semibold.pfb>
-Output written on main.pdf (3 pages, 181811 bytes).
+Output written on main.pdf (3 pages, 187503 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
