@@ -71,8 +71,8 @@
 }
 
 \renewcommand{\maketitle}{
-	{\noindent \huge \selectfont \@title \smallskip \par}
-	{\noindent \small \selectfont \@author \par}
+	{\noindent \huge \selectfont \@title \vspace{0.1cm} \par}
+	{\noindent \small \selectfont \@author \vspace{0.25cm} \par}
 	{\noindent \normalsize \fontshape{it} \selectfont \@abstract \bigskip \par}
 	\begin{frontmattercontainer}
 		\@affiliation \par
