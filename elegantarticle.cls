@@ -75,6 +75,7 @@
 	{\huge \selectfont \@title \vspace{0.1cm} \\}
 	{\small \selectfont \@author \vspace{0.25cm} \\}
 	{\normalsize \fontshape{it} \selectfont \@abstract \bigskip \\}
+	{\rule{\linewidth}{0.5pt} }
 	\begin{frontmattercontainer}
 		\@affiliation \par
 		{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
