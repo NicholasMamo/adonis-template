@@ -17,6 +17,10 @@
 
 % LAYOUT
 
+\RequirePackage[T1]{fontenc}
+\RequirePackage{mdframed}
+\RequirePackage{newfloat}
+
 % the class requires 'Source Serif' to be installed
 % you may need to download and install  it, and then clear font cache using `fc-cache`
 % other fonts: https://tug.org/FontCatalogue/
@@ -24,7 +28,6 @@
 % debug in-use fonts with: `\meaning\sfdefault` and `\meaning\rmdefault`
 \RequirePackage[rmdefault,regular,black]{sourceserifpro}
 \RequirePackage[sfdefault]{sourcesanspro}
-\RequirePackage[T1]{fontenc}
 
 % page size and margins: https://www.overleaf.com/learn/latex/Page_size_and_margins
 \ifthenelse{\boolean{onecolumn}}{\def\margin{40mm}}{\def\margin{25mm}}
@@ -43,10 +46,29 @@
 % font weights: https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/base/fntguide.pdf
 \renewcommand\seriesdefault{m}
 
+% variables
 \newcommand\affiliation[1]{\gdef\@affiliation{#1}}
+
+\definecolor{black}{rgb}{0,0,0}
+
+\DeclareFloatingEnvironment[placement={!b}]{frontmatter}
+\newenvironment{frontmattercontainer}[1][]{
+	\begin{frontmatter}
+		\begin{mdframed}[linecolor=black, linewidth=0.25mm,
+						 innertopmargin=0.25cm, innerrightmargin=0, innerbottommargin=0, innerleftmargin=0,
+						 topline=true, rightline=false, bottomline=false, leftline=false]
+		\small
+		}{
+		\end{mdframed}
+	\end{frontmatter}
+}
+
 \renewcommand{\maketitle}{
 	{\noindent\fontsize{20}{20}\selectfont\@title\smallskip\par}
 	{\noindent\fontshape{it}\selectfont\@author\par}
+	\begin{frontmattercontainer}
+		\@affiliation
+	\end{frontmattercontainer}
 }
 
 % From: https://latexref.xyz/_005c_0040startsection.html
