@@ -60,11 +60,14 @@
 \renewcommand\abstract[1]{\gdef\@abstract{#1}}
 
 % header
+\newcommand\runningauthor[1]{\gdef\@runningauthor{#1}}
+\newcommand\runningtitle[1]{\gdef\@runningtitle{#1}}
+
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
 \thispagestyle{empty} % not on first page
-\lhead{\footnotesize \@author}
-\rhead{\footnotesize \@title}
+\lhead{\footnotesize \ifdefined\@runningauthor \@runningauthor \else \@author \fi}
+\rhead{\footnotesize \ifdefined\@runningtitle \@runningtitle \else \@title \fi}
 \cfoot{\footnotesize \thepage}
 
 \DeclareFloatingEnvironment[placement={!b}]{frontmatter}
