@@ -81,20 +81,18 @@
 
 \renewcommand{\maketitle}{
 	\noindent
-	{\huge \selectfont \@title \vspace{0.1cm} \\}
-	{\small \selectfont \@author \vspace{0.25cm} \\}
-	{\small \fontshape{it} \selectfont \@abstract \bigskip \\}
+	\ifdefined \@title {\huge \selectfont \@title \vspace{0.1cm} \\} \fi
+	\ifdefined \@author {\small \selectfont \@author \vspace{0.25cm} \\} \fi
+	\ifdefined \@abstract {\small \fontshape{it} \selectfont \@abstract \bigskip \\} \fi
 	{\rule{\linewidth}{0.5pt} }
 	\ifthenelse{\boolean{twocolumn}}{\vspace{\fill}}{}
 	\begin{frontmattercontainer}
 		\ifdefined \@affiliation
 			\@affiliation \par
 		\fi
-		
 		\ifdefined \@date
 			{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
 		\fi
-		
 		\ifdefined \@correspondence
 			{\sffamily\fontseries{sb}\selectfont\scshape Correspondence} \@correspondence \par
 		\fi
