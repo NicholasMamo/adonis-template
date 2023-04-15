@@ -4,12 +4,12 @@
 % OPTIONS
 
 \RequirePackage{ifthen}
-\newboolean{onecolumn}
-\setboolean{onecolumn}{false}
+\newboolean{twocolumn}
+\setboolean{twocolumn}{false}
 
-\DeclareOption{onecolumn}{
+\DeclareOption{twocolumn}{
 	\PassOptionsToClass{\CurrentOption}{article}
-	\setboolean{onecolumn}{true}
+	\setboolean{twocolumn}{true}
 }
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
@@ -30,7 +30,7 @@
 \RequirePackage[sfdefault]{sourcesanspro}
 
 % page size and margins: https://www.overleaf.com/learn/latex/Page_size_and_margins
-\ifthenelse{\boolean{onecolumn}}{\def\margin{40mm}}{\def\margin{25mm}}
+\ifthenelse{\boolean{twocolumn}}{\def\margin{25mm}}{\def\margin{40mm}}
 \RequirePackage[a4paper, bindingoffset=0.2in,
 				left=\margin, right=\margin, top=57mm, bottom=57mm,
 				footskip=15mm]{geometry}
@@ -39,7 +39,7 @@
 \setlength{\columnsep}{10mm}
 
 % font size: https://www.overleaf.com/learn/latex/Writing_your_own_class
-\ifthenelse{\boolean{onecolumn}}{\def\lineheight{14}}{\def\lineheight{13}}
+\ifthenelse{\boolean{twocolumn}}{\def\lineheight{13}}{\def\lineheight{14}}
 \renewcommand{\normalsize}{\fontsize{10}{\lineheight}\selectfont}
 \renewcommand\familydefault{\rmdefault}
 
@@ -67,7 +67,7 @@
 	{\noindent\fontsize{20}{20}\selectfont\@title\smallskip\par}
 	{\noindent\fontshape{it}\selectfont\@author\par}
 	\begin{frontmattercontainer}
-		\@affiliation
+		\@affiliation \par
 	\end{frontmattercontainer}
 }
 
