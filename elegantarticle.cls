@@ -25,7 +25,6 @@
 \RequirePackage[rmdefault,regular,black]{sourceserifpro}
 \RequirePackage[sfdefault]{sourcesanspro}
 \RequirePackage[T1]{fontenc}
-\usepackage[LGR, T1]{fontenc}
 
 % page size and margins: https://www.overleaf.com/learn/latex/Page_size_and_margins
 \ifthenelse{\boolean{onecolumn}}{\def\margin{40mm}}{\def\margin{25mm}}
@@ -43,6 +42,11 @@
 
 % font weights: https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/base/fntguide.pdf
 \renewcommand\seriesdefault{m}
+
+\renewcommand{\maketitle}{
+	{\noindent\fontsize{20}{20}\selectfont\@title\smallskip\par}
+	{\noindent\fontshape{it}\selectfont\@author\par}
+}
 
 % From: https://latexref.xyz/_005c_0040startsection.html
 % More on plus and minus: https://latexref.xyz/Lengths.html
