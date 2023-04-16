@@ -89,9 +89,10 @@
 % other fonts: https://tug.org/FontCatalogue/
 %
 % debug in-use fonts with: `\meaning\sfdefault` and `\meaning\rmdefault`
-\RequirePackage[rmdefault,regular,black]{sourceserifpro}
+\RequirePackage[rmdefault]{sourceserifpro}
 \RequirePackage[sfdefault]{sourcesanspro}
 \RequirePackage[T1]{fontenc}
+\renewcommand\familydefault{\rmdefault}
 
 % font size: https://www.overleaf.com/learn/latex/Writing_your_own_class
 \ifthenelse{\boolean{twocolumn}}{\def\lineheight{13}}{\def\lineheight{14}}
@@ -101,10 +102,8 @@
 \renewcommand{\normalsize}{\fontsize{10}{\lineheight}\selectfont}
 \renewcommand{\large}{\fontsize{16}{19}\selectfont}
 \renewcommand{\huge}{\fontsize{20}{24}\selectfont}
-\renewcommand\familydefault{\rmdefault}
 
 % font weights: https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/base/fntguide.pdf
-\renewcommand\seriesdefault{m}
 \renewcommand\textbf[1]{{\fontseries{sb}\selectfont#1}}
 
 % From: https://latexref.xyz/_005c_0040startsection.html

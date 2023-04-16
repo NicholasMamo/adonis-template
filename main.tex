@@ -76,9 +76,9 @@
 		The extra space serves a dual purpose: an obvious aesthetic one, and a more functional one.
 		The wider margins afford margin notes more space, and thus gives them more prominence.
 		
-		Unlike the \textit{article} template, \textit{Adonis} includes a header and a footer.
-		The header shows the running author on the left and the running title on the right.
-		You can specify them as follows:
+		Unlike the \textit{article} template, \textit{Adonis} includes a header and a footer, albeit in small print.
+		The header shows the running author on the left and the running title on the right, while the footer shows the page number in the centre.
+		You can specify the running author and title as follows:
 		
 		\begin{verbatim}
 			\runningauthor{Yours truly et al.}
@@ -139,29 +139,55 @@
 			
 			The rest of the front-matter details, including the affiliations, the date of publication and the correspondence, appear at the bottom of the page in small type.\footnote{
 				To keep the template as simple as possible, \textit{Adonis} does not match the author with the affiliations.
-				In other words, you need to link the author with the affiliations manually, such as by adding superscript numbers next to your author and next to the affiliations.
+				In other words, you need to link the author with the affiliations manually, such as by adding superscript numbers next to your authors and next to their affiliations.
 			}
 			The secondary details are separated from the abstract and main text by a horizontal rule.
 			The template only renders the secondary details if you fill them in explicitly, so if you need a quick-start, you can leave them out altogether.
 			You can specify the secondary details using dedicated commands:
 			
 			\begin{verbatim}
-				\affiliation{\textsuperscript{1} Affiliation}
+				\affiliation{Affiliation}
 				\correspondence{youremail@tld.com}
 				\date{\today}
 			\end{verbatim}
 	
 	\section{Typography}
 	
-		Justified for a clean look
+		The second major change concerns the typography.
+		\textit{Adonis} uses the Source font family to improve readability: Source Serif Pro for the main text, and Source Sans Pro for headings.
+		All paragraphs are justified to give the document a clean look.
+		
+		\textit{Adonis} uses the same font size as in the base \textit{article} template: 10pt.
+		Differently from it, however, \textit{Adonis} uses a larger line-height: 1.4.
+		Apart from the normal size, the template also defines the \texttt{tiny}, \texttt{footnotesize}, \texttt{small}, \texttt{large} and \texttt{huge} sizes.
+		Font sizes larger than normal use a smaller line-height: about 1.2
+		
+		Finally, \textit{Adonis} uses the semi-bold font-weight in place of the bold-weight when using \texttt{\textbf}.
+		The actual bold font-weight looks heavy enough to feel jarring next to the regular font-weight.
 	
 		\subsection{Headings}
 		
-			\subsubsection{Sections}
+			Unlike the rest of the text, headings use the Source Sans Pro family.
+			All headings have the same size as the text, but they have a semi-bold font-weight and a small-caps shape.
+			The different font serves to draw attention to headings, and thus make the manuscript easier to navigate.
+			\textit{Adonis} supports three heading levels.
+		
+			\subsubsection{Section}
 			
-			\subsubsection{Subsections}
+				The section is the highest level in manuscripts.
+				Therefore \textit{Adonis} adds a hefty margin before them, such that sections leap out when scrolling.
 			
-			\subsubsection{Subsubsections}
+			\subsubsection{Subsection}
+			
+				The subsection is the second-highest level in manuscripts.
+				Subsections have a smaller margin than sections so that they are not easily-mistaken for sections.
+			
+			\subsubsection{Subsubsection}
+			
+				The subsubsection is the third-highest level in manuscripts.
+				It is also used relatively rarely.
+				Differently from all other headings, the subsubsection has a run-in header, which means that the text starts on the same line as the heading—like this one.
+				This style encourages subsubsections not to have more than one paragraph.
 			
 	\section{Other elements}
 	
@@ -173,7 +199,7 @@
 			\caption{The template's version history.}
 			\label{table: version history}
 		\end{table*}
-			
+	
 	\section{Conclusion}
 	
 	
