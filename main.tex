@@ -1,22 +1,25 @@
 \documentclass{adonis}
+\usepackage{hyperref}
 \usepackage{lipsum}
 \usepackage{tabularx}
+\usepackage{xurl}
 
-\title{Elegance: a guide}
+\title{Adonis: a guide}
 \author{Nicholas Mamo \textsuperscript{1}}
 \affiliation{\textsuperscript{1} Independent}
 \correspondence{nicholasmamo@gmail.com}
 \date{\today}
 \runningauthor{Nicholas Mamo}
-\runningtitle{Elegance: a guide}
+\runningtitle{Adonis: a guide}
 
 \abstract{
 	Academic writing does not have to be drab, and neither does the academic writing template.
-	The template should elevate the writing, not diminish it, but in academia, form normally follows function.
-	The { \upshape Elegant } template is my attempt to rectify that shortcoming.
-	I designed it as a no-frills but elegant template, built on the standard article template.
+	Not in academia, however.
+	In academia, form normally follows function.
+	The { \upshape Adonis } template is my attempt to rectify that shortcoming.
+	I designed it as a no-frills but elegant template, built on the basic article template.
 	At its core, three principles: simplicity, readability and aesthetic.
-	May this template elevate your writing.
+	This guide also plays three roles: to serve as an illustrative example, to guide you in using this template, and to document my changes.
 }
 
 \begin{document}
@@ -24,8 +27,76 @@
 	
 	\section{Introduction}
 	
-		\lipsum[1-3]
+		The best way to appreciate a good template is to force yourself to write with a bad template.
+		This is the \textit{Adonis} template.
+		Its design stems from a personal experience.
+		I was writing a manuscript that I had been planning for months, about a project that I had been developing for years, and on a subject I adored.
+		And I dreaded every minute I spent drafting the manuscript.
+		It took a while until I realized why: the template felt entirely off-putting.
 		
+		The template should elevate the writing, not diminish it.
+		In academia, however, form normally follows function.
+		Sometimes it feels like publishers deliberately diminish the form in a vain attempt to elevate the function: the words, the science, and nothing else.
+		Having a good writing environment matters.
+		To design the \textit{Adonis} template, I followed three principles:
+		
+		\begin{itemize}
+			\item Simplicity, by which I mean several things.
+				  I mean that I wanted the template to be simple for me to develop, lest it turn into an exercise in procrastination.
+				  I also mean that it should be easy for you, the writer, to use and adapt.
+				  Above all, I mean that it should be easy for your reader to consume.
+			
+			\item Readability, by which I mean the entire writing process.
+				  The template had to make it easy to draft manuscripts, revise and read.
+			
+			\item Aesthetic, by which I mean elegant.
+				  Simple and readable \LaTeX templates abound, but when I looked, I found most to favour function over form.
+		\end{itemize}
+	
+		I hope that you find this template to elevate both form and function, and that it proves it possible for the two to co-exist.
+		The rest of this guide documents design considerations for the layout, typography and other elements.
+	
+	\section{Layout}
+	
+		The \textit{Adonis} template is based on the base \textit{article} template.
+		The paper dimensions are those of an A4 paper.
+		Many changes concern its layout, and most add white space.
+		The margins are wider, notably on the sides, but also at the top and bottom.
+		The extra space serves a dual purpose: an obvious aesthetic one, and a more functional one.
+		The added space makes it easier to add notes in the margin.
+		
+		Heading and footer: Not on front page (elegance)
+		
+		\subsection{Options}
+		
+			\subsubsection{Two columns}
+			
+				\begin{verbatim}
+					\documentclass[twocolumn]{elegantarticle}
+				\end{verbatim}
+			
+			\subsubsection{Wide}
+			
+				\begin{verbatim}
+					\documentclass[wide]{elegantarticle}
+				\end{verbatim}
+	
+		\subsection{Frontmatter}
+		
+			Optional
+	
+	\section{Typography}
+	
+		\subsection{Headings}
+		
+			\subsubsection{Section}
+			
+			\subsubsection{Subsection}
+			
+			\subsubsection{Subsubsection}
+			
+	\section{Other elements}
+	
 		\begin{table*}[t!]
 			\begin{tabularx}{\linewidth}{ l l X }
 				\textbf{Version} & \textbf{Date} & \textbf{Changelog} \\ \hline
@@ -34,20 +105,15 @@
 			\caption{The template's version history.}
 			\label{table: version history}
 		\end{table*}
-	
-	\section{Related work}
-	
-		\lipsum[4-8]
-		
-	\section{Methodology}
-	
-		\lipsum[9]
-		
-		\subsection{Experimental setup}
-		
-			\lipsum[10]
 			
-			\subsubsection{Dataset}
-			
-				\lipsum[11]
+	\section{Conclusion}
+	
+	
+		Repository (including citation) \cite{repository}
+		
+	\begin{thebibliography}{9}
+		\bibitem{repository}
+		Adonis template. Nicholas Mamo (2023). \url{https://github.com/NicholasMamo/adonis-template}
+	\end{thebibliography}
+	
 \end{document}
