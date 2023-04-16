@@ -1,14 +1,18 @@
 \documentclass{adonis}
 \usepackage{hyperref}
-\usepackage{lipsum}
 \usepackage{tabularx}
 \usepackage{xurl}
 
+% main details
 \title{Adonis: a guide}
 \author{Nicholas Mamo \textsuperscript{1}}
+
+% secondary details
 \affiliation{\textsuperscript{1} Independent}
 \correspondence{nicholasmamo@gmail.com}
 \date{\today}
+
+% headers
 \runningauthor{Nicholas Mamo}
 \runningtitle{Adonis: a guide}
 
@@ -59,41 +63,105 @@
 	\section{Layout}
 	
 		The \textit{Adonis} template is based on the base \textit{article} template.
+		To use the template, you need to copy the \verb+adonis.cls+ class file to the same directory as your manuscript.
+		Then, specify the document class in the preamble:
+		
+		\begin{verbatim}
+			\documentclass[twocolumn]{adonis}
+		\end{verbatim}
+		
 		The paper dimensions are those of an A4 paper.
 		Many changes concern its layout, and most add white space.
 		The margins are wider, notably on the sides, but also at the top and bottom.
 		The extra space serves a dual purpose: an obvious aesthetic one, and a more functional one.
-		The added space makes it easier to add notes in the margin.
+		The wider margins afford margin notes more space, and thus gives them more prominence.
 		
-		Heading and footer: Not on front page (elegance)
+		Unlike the \textit{article} template, \textit{Adonis} includes a header and a footer.
+		The header shows the running author on the left and the running title on the right.
+		You can specify them as follows:
+		
+		\begin{verbatim}
+			\runningauthor{Yours truly et al.}
+			\runningtitle{Short title}
+		\end{verbatim}
+		
+		If you do not define them, the template uses the author and title fields instead.
+		\textit{Adonis} does not show the header and footer on the first page, which is already busy.
 		
 		\subsection{Options}
 		
+			The \textit{Adonis} template comes with optional directives to change how the manuscript looks.
+			By default, the template has one column and wide margins, but you can change both.
+			Remember that you can use multiple options, or none at all.
+		
 			\subsubsection{Two columns}
 			
+				The two-column layout gives the manuscript a conference paper-like look.
+				Since a two-column layout takes up more space, \textit{Adonis} reduces the margin sizes.
+				Part of the reclaimed margin size goes to the column separation to give the document a clean look and improve readability.
+				To enable the two-column layout, pass the \verb+twocolumn+ option to the \textit{Adonis} template:
+			
 				\begin{verbatim}
-					\documentclass[twocolumn]{elegantarticle}
+					\documentclass[twocolumn]{adonis}
 				\end{verbatim}
 			
 			\subsubsection{Wide}
 			
+				The default layout has wide margins, both to give the document a clean look and to reserve more space for margin notes.
+				If you require neither, you can reduce margin space and widen the text area by using the wide option:
+			
 				\begin{verbatim}
-					\documentclass[wide]{elegantarticle}
+					\documentclass[wide]{adonis}
 				\end{verbatim}
 	
-		\subsection{Frontmatter}
+		\subsection{Front-matter}
 		
-			Optional
+			\textit{Adonis} changes the \textit{article}'s front page to make a better first-impression.
+			The title is no longer centred and, in the two-column layout, it occupies only one column.
+			Moreover, to give the title more prominence, the template shrinks secondary information and moves some of it to the bottom of the page.
+			The template thus splits the front-matter into two parts, the main and secondary details.
+			
+			\subsubsection{Main details}
+			
+			The main details include three parts: the title, the author and the abstract.
+			To make the difference evident, the template gives the title a large font size and the author a smaller size, and italicizes the abstract.
+			A horizontal rule separates the abstract from the main content.
+			In the two-column layout, \textit{Adonis} also starts a new column after the abstract to give the template flair and increase the separation between the abstract and the main text.
+			You can specify the title, author and abstract using dedicated commands:
+			
+			\begin{verbatim}
+				\title{Your title}
+				\author{Yours truly}
+				\abstract{\lipsum[0]}
+			\end{verbatim}
+			
+			\subsubsection{Secondary details}
+			
+			The rest of the front-matter details, including the affiliations, the date of publication and the correspondence, appear at the bottom of the page in small type.\footnote{
+				To keep the template as simple as possible, \textit{Adonis} does not match the author with the affiliations.
+				In other words, you need to link the author with the affiliations manually, such as by adding superscript numbers next to your author and next to the affiliations.
+			}
+			The secondary details are separated from the abstract and main text by a horizontal rule.
+			The template only renders the secondary details if you fill them in explicitly, so if you need a quick-start, you can leave them out altogether.
+			You can specify the secondary details using dedicated commands:
+			
+			\begin{verbatim}
+				\affiliation{\textsuperscript{1} Affiliation}
+				\correspondence{youremail@tld.com}
+				\date{\today}
+			\end{verbatim}
 	
 	\section{Typography}
 	
+		Justified for a clean look
+	
 		\subsection{Headings}
 		
-			\subsubsection{Section}
+			\subsubsection{Sections}
 			
-			\subsubsection{Subsection}
+			\subsubsection{Subsections}
 			
-			\subsubsection{Subsubsection}
+			\subsubsection{Subsubsections}
 			
 	\section{Other elements}
 	

@@ -29,6 +29,59 @@
 % add space between columns
 \setlength{\columnsep}{10mm}
 
+% header and footer
+\newcommand\runningauthor[1]{\gdef\@runningauthor{#1}}
+\newcommand\runningtitle[1]{\gdef\@runningtitle{#1}}
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\thispagestyle{empty} % not on first page
+\lhead{\footnotesize \ifdefined\@runningauthor \@runningauthor \else \@author \fi}
+\rhead{\footnotesize \ifdefined\@runningtitle \@runningtitle \else \@title \fi}
+\cfoot{\footnotesize \thepage}
+
+% title
+\newcommand\affiliation[1]{\gdef\@affiliation{#1}}
+\newcommand\correspondence[1]{\gdef\@correspondence{#1}}
+\renewcommand\abstract[1]{\gdef\@abstract{#1}}
+
+% show the rest of the frontmatter as a footer
+\RequirePackage{newfloat}
+\DeclareFloatingEnvironment[placement={!b}]{frontmatter}
+\newenvironment{frontmattercontainer}[1][]{
+	\begin{frontmatter}
+		\rule{\linewidth}{0.5pt}
+		\footnotesize
+	}{
+	\end{frontmatter}
+}
+
+\renewcommand{\maketitle}{
+	\noindent
+	\ifdefined \@title {\huge \selectfont \@title \vspace{0.1cm} \\} \fi
+	\ifdefined \@author {\small \selectfont \@author \vspace{0.25cm} \\} \fi
+	\ifdefined \@abstract {\small \fontshape{it} \selectfont \@abstract \bigskip \\} \fi
+	{\rule{\linewidth}{0.5pt} }
+	\ifthenelse{\boolean{twocolumn}}{\vspace{\fill}}{}
+	
+	\ifdefined \@affiliation
+	\ifdefined \@date
+	\ifdefined \@correspondence
+		\begin{frontmattercontainer}
+			\ifdefined \@affiliation
+			\@affiliation \par
+			\fi
+			\ifdefined \@date
+			{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
+			\fi
+			\ifdefined \@correspondence
+			{\sffamily\fontseries{sb}\selectfont\scshape Correspondence} \@correspondence \par
+			\fi
+		\end{frontmattercontainer}
+	\fi
+	\fi
+	\fi
+}
+
 % TYPOGRAPHY
 
 % the class requires 'Source Serif' to be installed
@@ -54,52 +107,6 @@
 \renewcommand\seriesdefault{m}
 \renewcommand\textbf[1]{{\fontseries{sb}\selectfont#1}}
 
-% header
-\newcommand\runningauthor[1]{\gdef\@runningauthor{#1}}
-\newcommand\runningtitle[1]{\gdef\@runningtitle{#1}}
-
-\RequirePackage{fancyhdr}
-\pagestyle{fancy}
-\thispagestyle{empty} % not on first page
-\lhead{\footnotesize \ifdefined\@runningauthor \@runningauthor \else \@author \fi}
-\rhead{\footnotesize \ifdefined\@runningtitle \@runningtitle \else \@title \fi}
-\cfoot{\footnotesize \thepage}
-
-% title
-\newcommand\affiliation[1]{\gdef\@affiliation{#1}}
-\newcommand\correspondence[1]{\gdef\@correspondence{#1}}
-\renewcommand\abstract[1]{\gdef\@abstract{#1}}
-
-\RequirePackage{newfloat}
-\DeclareFloatingEnvironment[placement={!b}]{frontmatter}
-\newenvironment{frontmattercontainer}[1][]{
-	\begin{frontmatter}
-		\rule{\linewidth}{0.5pt}
-		\footnotesize
-		}{
-	\end{frontmatter}
-}
-
-\renewcommand{\maketitle}{
-	\noindent
-	\ifdefined \@title {\huge \selectfont \@title \vspace{0.1cm} \\} \fi
-	\ifdefined \@author {\small \selectfont \@author \vspace{0.25cm} \\} \fi
-	\ifdefined \@abstract {\small \fontshape{it} \selectfont \@abstract \bigskip \\} \fi
-	{\rule{\linewidth}{0.5pt} }
-	\ifthenelse{\boolean{twocolumn}}{\vspace{\fill}}{}
-	\begin{frontmattercontainer}
-		\ifdefined \@affiliation
-			\@affiliation \par
-		\fi
-		\ifdefined \@date
-			{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
-		\fi
-		\ifdefined \@correspondence
-			{\sffamily\fontseries{sb}\selectfont\scshape Correspondence} \@correspondence \par
-		\fi
-	\end{frontmattercontainer}
-}
-
 % From: https://latexref.xyz/_005c_0040startsection.html
 % More on plus and minus: https://latexref.xyz/Lengths.html
 \renewcommand{\section}{
@@ -107,7 +114,7 @@
 	{section} % name
 	{1}       % level
 	{0pt}     % indent
-	{-5ex plus -1ex minus -.2ex} % beforeskip
+	{-4ex plus -1ex minus -.2ex} % beforeskip
 	{1ex plus 0.2ex minus -.2ex} % afterskip
 	{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont}
 }
@@ -117,7 +124,7 @@
 	{subsection} % name
 	{2}          % level
 	{0pt}        % indent
-	{-2.5ex plus -1ex minus -.2ex} % beforeskip
+	{-2ex plus -1ex minus -.2ex} % beforeskip
 	{1ex plus 0.2ex minus -.2ex} % afterskip
 	{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont}
 }
@@ -131,6 +138,8 @@
 	{-1ex plus 0.2ex minus -.2ex} % afterskip
 	{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont}
 }
+
+% OTHER ELEMENTS
 
 % tables
 \setlength{\tabcolsep}{10pt} % cell padding
