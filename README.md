@@ -9,11 +9,15 @@ The template extends the base _article_ template with a new layout, new typograp
 The goal: to make writing, revising and reading journal articles and conference proceeding papers a more artistic endeavor.
 At its core, Adonis has three principles: simplicity, readability and aesthetic.
 
+![](screenshots/close-up.png)
+
 ## Getting Started
 
 If you are only interested in writing, you can copy `quickstart.tex`.
 The preamble consists of optional commands to make full use of the template.
 If you want to learn more about the `adonis` theme, you can read the `docs.pdf` file.
+
+![](screenshots/one-column.png)
 
 By default, the template uses a one-column layout.
 However, you can change how it looks using the following options in the preamble:
