@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{elegantarticle}[2023/04/14 Elegant LaTeX article class]
+\ProvidesClass{adonis}[2023/04/14 Adonis LaTeX article class]
 
 % OPTIONS
 
@@ -8,6 +8,8 @@
 \setboolean{twocolumn}{false}
 \newboolean{wide}
 \setboolean{wide}{false}
+
+% LAYOUT
 
 \DeclareOption{twocolumn}{
 	\PassOptionsToClass{\CurrentOption}{article}
@@ -18,24 +20,6 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
-% LAYOUT
-
-\RequirePackage[T1]{fontenc}
-\RequirePackage{mdframed}
-\RequirePackage{newfloat}
-
-% the class requires 'Source Serif' to be installed
-% you may need to download and install  it, and then clear font cache using `fc-cache`
-% other fonts: https://tug.org/FontCatalogue/
-%
-% debug in-use fonts with: `\meaning\sfdefault` and `\meaning\rmdefault`
-\RequirePackage[rmdefault,regular,black]{sourceserifpro}
-\RequirePackage[sfdefault]{sourcesanspro}
-
-% colors
-\RequirePackage{xcolor}
-\definecolor{black}{rgb}{0,0,0}
-
 % page size and margins: https://www.overleaf.com/learn/latex/Page_size_and_margins
 \ifthenelse{\boolean{twocolumn} \or \boolean{wide}}{\def\margin{25mm}}{\def\margin{40mm}}
 \RequirePackage[a4paper, bindingoffset=0.2in,
@@ -44,6 +28,17 @@
 
 % add space between columns
 \setlength{\columnsep}{10mm}
+
+% TYPOGRAPHY
+
+% the class requires 'Source Serif' to be installed
+% you may need to download and install  it, and then clear font cache using `fc-cache`
+% other fonts: https://tug.org/FontCatalogue/
+%
+% debug in-use fonts with: `\meaning\sfdefault` and `\meaning\rmdefault`
+\RequirePackage[rmdefault,regular,black]{sourceserifpro}
+\RequirePackage[sfdefault]{sourcesanspro}
+\RequirePackage[T1]{fontenc}
 
 % font size: https://www.overleaf.com/learn/latex/Writing_your_own_class
 \ifthenelse{\boolean{twocolumn}}{\def\lineheight{13}}{\def\lineheight{14}}
@@ -57,7 +52,7 @@
 
 % font weights: https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/base/fntguide.pdf
 \renewcommand\seriesdefault{m}
-\renewcommand\textbf[1]{\fontseries{sb}\selectfont#1}
+\renewcommand\textbf[1]{{\fontseries{sb}\selectfont#1}}
 
 % header
 \newcommand\runningauthor[1]{\gdef\@runningauthor{#1}}
@@ -75,6 +70,7 @@
 \newcommand\correspondence[1]{\gdef\@correspondence{#1}}
 \renewcommand\abstract[1]{\gdef\@abstract{#1}}
 
+\RequirePackage{newfloat}
 \DeclareFloatingEnvironment[placement={!b}]{frontmatter}
 \newenvironment{frontmattercontainer}[1][]{
 	\begin{frontmatter}
@@ -121,7 +117,7 @@
 	{subsection} % name
 	{2}          % level
 	{0pt}        % indent
-	{-5ex plus -1ex minus -.2ex} % beforeskip
+	{-2.5ex plus -1ex minus -.2ex} % beforeskip
 	{1ex plus 0.2ex minus -.2ex} % afterskip
 	{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont}
 }
@@ -131,7 +127,7 @@
 	{subsubsection} % name
 	{2}             % level
 	{0pt}           % indent
-	{-5ex plus -1ex minus -.2ex} % beforeskip
+	{-1ex plus -1ex minus -.2ex} % beforeskip
 	{-1ex plus 0.2ex minus -.2ex} % afterskip
 	{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont}
 }
