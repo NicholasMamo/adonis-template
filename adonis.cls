@@ -144,7 +144,7 @@
 \setlength{\tabcolsep}{10pt} % cell padding
 \renewcommand{\arraystretch}{1.5} % row spacing
 
-% margins
+% margin notes
 \makeatletter
 \renewcommand{\@marginparreset}{\reset@font\footnotesize\@setminipage}
 \makeatother

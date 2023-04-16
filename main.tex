@@ -50,14 +50,13 @@
 				  I also mean that it should be easy for you, the writer, to use and adapt.
 				  Above all, I mean that it should be easy for your reader to consume.
 			
-			\item Readability, by which I mean the entire writing process.
-				  The template had to make it easy to draft manuscripts, revise and read.
+			\item Readability, by which I mean readability throughout the writing process.
+				  The template should to make it easy to draft manuscripts, revise and read.
 			
 			\item Aesthetic, by which I mean elegant.
 				  Simple and readable \LaTeX templates abound, but when I looked, I found most to favour function over form.
 		\end{itemize}
 	
-		I hope that you find this template to elevate both form and function, and that it proves it possible for the two to co-exist.
 		The rest of this guide documents design considerations for the layout, typography and other elements.
 	
 	\section{Layout}
@@ -197,13 +196,22 @@
 				0.1 & April 15, 2023 & Initial release \\
 			\end{tabularx}
 			\caption{The template's version history.}
-			\label{table: version history}
+			\label{"Table: version history"}
 		\end{table*}
+	
+		In addition to the layout and typography, \textit{Adonis} also makes slight changes to other common \LaTeX{} elements.
+		The template gives table cells more padding and rows more space, as shown in Table~\ref{"Table: version history"}.
+
+		Margin notes also use a smaller font size such that they are not too prominent.
 	
 	\section{Conclusion}
 	
-	
-		Repository (including citation) \cite{repository}
+		I designed \textit{Adonis} to be as simple to use as possible.
+		The optional commands, for example, mean that you do not have to define everything at once; you can simply start writing.
+		To make the template easier to use, \textit{Adonis} also comes with a separate file, \texttt{quickstart.tex}, without text, commented-out commands and space to write.
+		
+		I hope that you find this template to elevate both form and function, and that it proves it possible for the two to co-exist.
+		If you find any issues in \textit{Adonis}, or if you have suggestions to make it better, you can reach out to me at the email on the first page, or by opening an issue on the template's repository~\cite{repository}.
 		
 	\begin{thebibliography}{9}
 		\bibitem{repository}
