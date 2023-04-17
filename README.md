@@ -2,14 +2,14 @@
 
 A no-frills, elegant LaTeX template.
 
+![](screenshots/close-up.png)
+
 ## Description
 
 Adonis is a LaTeX template designed to prioritize both form and function.
 The template extends the base _article_ template with a new layout, new typography and other miscellaneous changes.
 The goal: to make writing, revising and reading journal articles and conference proceeding papers a more artistic endeavor.
 At its core, Adonis has three principles: simplicity, readability and aesthetic.
-
-![](screenshots/close-up.png)
 
 ## Getting Started
 
