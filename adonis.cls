@@ -88,6 +88,10 @@
 % you may need to download and install  it, and then clear font cache using `fc-cache`
 % other fonts: https://tug.org/FontCatalogue/
 %
+% to use a font temporarily, see their packages
+% for example, the quattrocento font uses macros \quattrocento and \quattrocentosans: https://www.ctan.org/tex-archive/fonts/quattrocento/
+% bookman uses \fontfamily{pbk}, which are the first three letters of the font: https://www.ctan.org/tex-archive/fonts/psfonts/psnfss-source/bookman
+%
 % debug in-use fonts with: `\meaning\sfdefault` and `\meaning\rmdefault`
 \RequirePackage[rmdefault]{sourceserifpro}
 \RequirePackage[sfdefault]{sourcesanspro}
