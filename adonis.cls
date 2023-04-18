@@ -3,25 +3,25 @@
 
 % OPTIONS
 
-\RequirePackage{ifthen}
-\newboolean{twocolumn}
-\setboolean{twocolumn}{false}
-\newboolean{wide}
-\setboolean{wide}{false}
+\RequirePackage{etoolbox}
+\newbool{twocolumn}
+\boolfalse{twocolumn}
+\newbool{wide}
+\boolfalse{wide}
 
 % LAYOUT
 
 \DeclareOption{twocolumn}{
 	\PassOptionsToClass{\CurrentOption}{article}
-	\setboolean{twocolumn}{true}
+	\booltrue{twocolumn}
 }
-\DeclareOption{wide}{\setboolean{wide}{true}}
+\DeclareOption{wide}{\booltrue{wide}}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 \LoadClass{article}
 
 % page size and margins: https://www.overleaf.com/learn/latex/Page_size_and_margins
-\ifthenelse{\boolean{twocolumn} \or \boolean{wide}}{\def\margin{25mm}}{\def\margin{40mm}}
+\ifboolexpr{bool {twocolumn} or bool {wide}}{\def\margin{25mm}}{\def\margin{40mm}}
 \RequirePackage[a4paper, bindingoffset=0.2in,
 				left=\margin, right=\margin, top=57mm, bottom=57mm,
 				footskip=15mm]{geometry}
@@ -61,7 +61,7 @@
 	\ifdefined \@author {\small \selectfont \@author \vspace{0.25cm} \\} \fi
 	\ifdefined \@abstract {\small \fontshape{it} \selectfont \@abstract \bigskip \\} \fi
 	{\rule{\linewidth}{0.5pt} }
-	\ifthenelse{\boolean{twocolumn}}{\vspace{\fill}}{}
+	\ifbool{twocolumn}{\vspace{\fill}}{}
 	
 	\ifdefined \@affiliation
 	\ifdefined \@date
@@ -99,7 +99,7 @@
 \renewcommand\familydefault{\rmdefault}
 
 % font size: https://www.overleaf.com/learn/latex/Writing_your_own_class
-\ifthenelse{\boolean{twocolumn}}{\def\lineheight{13}}{\def\lineheight{14}}
+\ifbool{twocolumn}{\def\lineheight{13}}{\def\lineheight{14}}
 \renewcommand{\tiny}{\fontsize{7}{10}\selectfont}
 \renewcommand{\footnotesize}{\fontsize{8}{11}\selectfont}
 \renewcommand{\small}{\fontsize{9.5}{12.5}\selectfont}
