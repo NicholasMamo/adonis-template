@@ -98,12 +98,13 @@
 \RequirePackage[sfdefault]{sourcesanspro}
 \RequirePackage[T1]{fontenc}
 
+% set the default fonts
+\renewcommand\familydefault{\rmdefault}
+\renewcommand{\ttdefault}{txtt}
+
 % add protrusion (punctuation can bleed into margins) and text expansion (to vary font width for more even spacing)
 % docs: https://ctan.math.illinois.edu/macros/latex/contrib/microtype/microtype.pdf
 \RequirePackage[protrusion=true,factor=500,expansion=true]{microtype}
-
-% use the serif font by default
-\renewcommand\familydefault{\rmdefault}
 
 % font size: https://www.overleaf.com/learn/latex/Writing_your_own_class
 \ifbool{twocolumn}{\def\lineheight{13}}{\def\lineheight{14}}
