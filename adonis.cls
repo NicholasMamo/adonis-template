@@ -146,7 +146,7 @@
 	{2}             % level
 	{0pt}           % indent
 	{-1ex plus -1ex minus -.2ex} % beforeskip
-	{-1ex plus 0.2ex minus -.2ex} % afterskip
+	{-2ex plus 0.2ex minus -.2ex} % afterskip
 	{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont}
 }
 
