@@ -58,10 +58,10 @@
 
 \renewcommand{\maketitle}{
 	\noindent
-	\ifdefined \@title {\huge \selectfont \@title \vspace{0.1cm} \\} \fi
-	\ifdefined \@author {\small \selectfont \@author \vspace{0.25cm} \\} \fi
-	\ifdefined \@abstract {\small \fontshape{it} \selectfont \@abstract \bigskip \\} \fi
-	{\rule{\linewidth}{0.5pt} }
+	\ifdefined \@title {\huge \selectfont \noindent \@title \vspace{0.2cm} \par} \fi
+	\ifdefined \@author {\small \selectfont \noindent \@author \vspace{0.25cm} \par} \fi
+	\ifdefined \@abstract {\small \fontshape{it} \selectfont \noindent \@abstract \bigskip \par} \fi
+	{\noindent\rule{\linewidth}{0.5pt} }
 	\ifbool{twocolumn}{\vspace{\fill}}{}
 	
 	\ifdefined \@affiliation
