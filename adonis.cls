@@ -118,37 +118,40 @@
 % font weights: https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/base/fntguide.pdf
 \renewcommand\textbf[1]{{\fontseries{sb}\selectfont#1}}
 
-% From: https://latexref.xyz/_005c_0040startsection.html
 % More on plus and minus: https://latexref.xyz/Lengths.html
-\renewcommand{\section}{
-	\@startsection
-	{section} % name
-	{1}       % level
-	{0pt}     % indent
-	{-4ex plus -1ex minus -.2ex} % beforeskip
-	{1ex plus 0.2ex minus -.2ex} % afterskip
-	{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont}
-}
+\RequirePackage{titlesec}
+\titleformat{\section} % command
+			{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont} % format
+			{\thesection} % label
+			{0pt} % skip
+			{\hspace*{1ex}} % space between number and heading
+\titlespacing{\section}{0pt}
+			 {4ex plus -1ex minus -.2ex} % beforeskip
+			 {1ex plus 0.2ex minus -.2ex} % afterskip		
+\titleformat{name=\section,numberless} % command
+			{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont} % format
+			{} % no label
+			{0pt} % skip
+			{} % no space between number and heading
 
-\renewcommand{\subsection}{
-	\@startsection
-	{subsection} % name
-	{2}          % level
-	{0pt}        % indent
-	{-2ex plus -1ex minus -.2ex} % beforeskip
-	{1ex plus 0.2ex minus -.2ex} % afterskip
-	{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont}
-}
+\titleformat{\subsection} % command
+			{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont} % format
+			{\thesubsection} % label
+			{0pt} % skip
+			{\hspace*{1ex}} % space between number and heading
+\titlespacing{\subsection}{0pt}
+			 {2ex plus -1ex minus -.2ex} % beforeskip
+			 {1ex plus 0.2ex minus -.2ex} % afterskip
 
-\renewcommand{\subsubsection}{
-	\@startsection
-	{subsubsection} % name
-	{2}             % level
-	{0pt}           % indent
-	{-1ex plus -1ex minus -.2ex} % beforeskip
-	{-2ex plus 0.2ex minus -.2ex} % afterskip
-	{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont}
-}
+\titleformat{\subsubsection} % command
+			[runin]
+			{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont} % format
+			{\thesubsubsection} % label
+			{0pt} % skip
+			{\hspace*{1ex}} % space between number and heading
+\titlespacing{\subsubsection}{0pt}
+			 {1ex plus -1ex minus -.2ex} % beforeskip
+			 {2ex plus 0.2ex minus -.2ex} % afterskip
 
 % OTHER ELEMENTS
 
