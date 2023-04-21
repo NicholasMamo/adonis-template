@@ -68,23 +68,17 @@
 	{\noindent\rule{\linewidth}{0.5pt} }
 	\ifbool{twocolumn}{\vspace{\fill}}{}
 	
-	\ifdefined \@affiliation
-	\ifdefined \@date
-	\ifdefined \@correspondence
+	\ifdef{\@affiliation and \@date and \@correspondence}{
 		\begin{frontmattercontainer}
-			\ifdefined \@affiliation
-			\@affiliation \par
-			\fi
+			\ifdefined \@affiliation \@affiliation \par \fi
 			\ifdefined \@date
-			{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
+				{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
 			\fi
 			\ifdefined \@correspondence
-			{\sffamily\fontseries{sb}\selectfont\scshape Correspondence} \@correspondence \par
+				{\sffamily\fontseries{sb}\selectfont\scshape Correspondence} \@correspondence \par
 			\fi
 		\end{frontmattercontainer}
-	\fi
-	\fi
-	\fi
+	}{}
 }
 
 % TYPOGRAPHY
