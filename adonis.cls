@@ -58,25 +58,20 @@
 
 \renewcommand{\maketitle}{
 	\noindent
-	\ifdefined \@title
-		\ifbool{twocolumn}
-			{{\large \selectfont \noindent \@title \vspace{0.2cm} \par}}
-			{{\huge \selectfont \noindent \@title \vspace{0.2cm} \par}}
-	\fi
-	\ifdefined \@author {\small \selectfont \noindent \@author \vspace{0.25cm} \par} \fi
-	\ifdefined \@abstract {\small \fontshape{it} \selectfont \noindent \@abstract \bigskip \par} \fi
+	\ifdef{\@title}{
+	\begin{flushleft}
+		{\ifbool{twocolumn}{\large}{\huge} \selectfont \noindent \@title \vspace{0.2cm} \par}
+	\end{flushleft}}{}
+	\ifdef{\@author}{{\small \selectfont \noindent \@author \vspace{0.25cm} \par}}{}
+	\ifdef{\@abstract}{{\small \fontshape{it} \selectfont \noindent \@abstract \bigskip \par}}{}
 	{\noindent\rule{\linewidth}{0.5pt} }
 	\ifbool{twocolumn}{\vspace{\fill}}{}
 	
-	\ifdef{\@affiliation and \@date and \@correspondence}{
+	\ifboolexpr{test {\ifdef{\@affiliation}} or test {\ifdef{\@correspondence}} or test {\ifdef{\@date}}}{
 		\begin{frontmattercontainer}
-			\ifdefined \@affiliation \@affiliation \par \fi
-			\ifdefined \@date
-				{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par
-			\fi
-			\ifdefined \@correspondence
-				{\sffamily\fontseries{sb}\selectfont\scshape Correspondence} \@correspondence \par
-			\fi
+			\ifdef{\@affiliation}{\@affiliation \par}{}
+			\ifdef{\@date}{{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par}{}
+			\ifdef{\@correspondence}{{\sffamily\fontseries{sb}\selectfont\scshape Correspondence} \@correspondence \par}{}
 		\end{frontmattercontainer}
 	}{}
 }
