@@ -58,7 +58,11 @@
 
 \renewcommand{\maketitle}{
 	\noindent
-	\ifdefined \@title {\huge \selectfont \noindent \@title \vspace{0.2cm} \par} \fi
+	\ifdefined \@title
+		\ifbool{twocolumn}
+			{{\large \selectfont \noindent \@title \vspace{0.2cm} \par}}
+			{{\huge \selectfont \noindent \@title \vspace{0.2cm} \par}}
+	\fi
 	\ifdefined \@author {\small \selectfont \noindent \@author \vspace{0.25cm} \par} \fi
 	\ifdefined \@abstract {\small \fontshape{it} \selectfont \noindent \@abstract \bigskip \par} \fi
 	{\noindent\rule{\linewidth}{0.5pt} }
