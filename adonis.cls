@@ -130,8 +130,8 @@
 			{0pt} % skip
 			{\hspace*{1ex}} % space between number and heading
 \titlespacing{\section}{0pt}
-			 {4ex plus -1ex minus -.2ex} % beforeskip
-			 {1ex plus 0.2ex minus -.2ex} % afterskip		
+			 {4ex plus 0.5ex minus .5ex} % beforeskip
+			 {1ex plus 0.2ex minus .2ex} % afterskip		
 \titleformat{name=\section,numberless} % command
 			{\sffamily\fontseries{sb}\scshape\fontsize{10}{10}\selectfont} % format
 			{} % no label
@@ -144,8 +144,8 @@
 			{0pt} % skip
 			{\hspace*{1ex}} % space between number and heading
 \titlespacing{\subsection}{0pt}
-			 {2ex plus -1ex minus -.2ex} % beforeskip
-			 {1ex plus 0.2ex minus -.2ex} % afterskip
+			 {2ex plus 0.5ex minus .5ex} % beforeskip
+			 {1.5ex plus 0.2ex minus .2ex} % afterskip
 
 \titleformat{\subsubsection} % command
 			[runin]
@@ -154,8 +154,8 @@
 			{0pt} % skip
 			{\hspace*{1ex}} % space between number and heading
 \titlespacing{\subsubsection}{0pt}
-			 {1ex plus -1ex minus -.2ex} % beforeskip
-			 {2ex plus 0.2ex minus -.2ex} % afterskip
+			 {1ex plus 0.5ex minus .5ex} % beforeskip
+			 {1ex plus 0.2ex minus .2ex} % afterskip
 
 % OTHER ELEMENTS
 
