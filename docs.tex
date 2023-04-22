@@ -160,11 +160,23 @@
 		\textit{Adonis} uses the same font size as in the base \textit{article} template: 10pt.
 		Differently from it, however, \textit{Adonis} uses a larger line-height: 1.4.
 		Apart from the normal size, the template also defines the \texttt{tiny}, \texttt{footnotesize}, \texttt{small}, \texttt{large} and \texttt{huge} sizes.
-		Font sizes larger than normal use a smaller line-height: about 1.2
+		Font sizes larger than normal use a smaller line-height: about 1.2.
 		
 		Moreover, \textit{Adonis} makes some subtler changes.
 		For example, the template uses the semi-bold font-weight in place of the actual bold-weight when using \verb+\textbf+; the bold font-weight looks too heavy and feels jarring next to the regular font-weight.
 		The template also the \texttt{microtype} package to enable protrusion and expansion; the former lets punctuation bleed slightly into the margins, and the latter uses varying font widths to make the word-spacing more even.
+		
+		\subsection{Math}
+		
+			The Source Pro family does not have support for mathematical text.
+			Instead, \textit{Adonis} uses the Noto Serif font to render mathematical text.
+			For example, the following equation represents the golden ratio $\phi$, on which I based the page margins.
+			The font has a thickness much closer to Source Serif's than the default font.
+		
+			\begin{equation}
+				\phi = \frac{1 + \sqrt{5}}{2}
+			\end{equation}
+		
 
 		\subsection{Headings}
 		

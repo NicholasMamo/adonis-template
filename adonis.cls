@@ -78,8 +78,11 @@
 
 % TYPOGRAPHY
 
+% load the Noto font first so that it only affects mathematical notation
+% the font requires TeXlive 2021 or later
+\RequirePackage[scale=0.95]{notomath}
 % the class requires 'Source Serif' to be installed
-% you may need to download and install  it, and then clear font cache using `fc-cache`
+% you may need to download and install the package, and then clear font cache using `fc-cache`
 % other fonts: https://tug.org/FontCatalogue/
 %
 % to use a font temporarily, see their packages
