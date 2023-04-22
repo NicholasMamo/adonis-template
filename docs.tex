@@ -90,13 +90,24 @@
 			The \textit{Adonis} template comes with optional directives to change how the manuscript looks.
 			By default, the template has one column and wide margins, but you can change both.
 			Remember that you can use multiple options, or none at all.
+			
+			\subsubsection{Legacy}
+			
+				The legacy layout adds backwards compatibility for old packages.
+				Specifically, the legacy layout does not load the \texttt{notomath} package, which the template uses to render mathematical text.
+				Use the legacy layout on versions of TeX Live from before 2021, which do not include the package.
+				To enable the legacy layout, pass the \texttt{legacy} option to the \textit{Adonis} template:
+				
+				\begin{verbatim}
+					\documentclass[legacy]{adonis}
+				\end{verbatim}
 		
 			\subsubsection{Two columns}
 			
 				The two-column layout gives the manuscript a conference paper-like look.
 				Since a two-column layout takes up more space, \textit{Adonis} reduces the margin sizes.
 				Part of the reclaimed margin size goes to the column separation to give the document a clean look and improve readability.
-				To enable the two-column layout, pass the \verb+twocolumn+ option to the \textit{Adonis} template:
+				To enable the two-column layout, pass the \texttt{twocolumn} option to the \textit{Adonis} template:
 			
 				\begin{verbatim}
 					\documentclass[twocolumn]{adonis}
@@ -163,8 +174,8 @@
 		Font sizes larger than normal use a smaller line-height: about 1.2.
 		
 		Moreover, \textit{Adonis} makes some subtler changes.
-		For example, the template uses the semi-bold font-weight in place of the actual bold-weight when using \verb+\textbf+; the bold font-weight looks too heavy and feels jarring next to the regular font-weight.
-		The template also the \texttt{microtype} package to enable protrusion and expansion; the former lets punctuation bleed slightly into the margins, and the latter uses varying font widths to make the word-spacing more even.
+		For example, the template uses the semi-bold font-weight in place of the actual bold-weight when using \texttt{\textbackslash{}textbf}, which looks more subtle next to the regular font-weight.
+		The template also uses the \texttt{microtype} package to enable protrusion and expansion; the former lets punctuation bleed slightly into the margins, and the latter uses varying font widths to make the word-spacing more even.
 		
 		\subsection{Math}
 		
@@ -177,6 +188,12 @@
 				\phi = \frac{1 + \sqrt{5}}{2}
 			\end{equation}
 		
+			Note that the \texttt{notomath} package is only available from TeX Live 2021 onward.
+			To use the template on earlier versions, pass the \texttt{legacy} option to the document class:
+			
+			\begin{verbatim}
+				\documentclass[legacy]{adonis}
+			\end{verbatim}
 
 		\subsection{Headings}
 		

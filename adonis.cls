@@ -4,11 +4,11 @@
 % OPTIONS
 
 \RequirePackage{etoolbox}
-\newbool{twocolumn}
-\boolfalse{twocolumn}
-\newbool{wide}
-\boolfalse{wide}
+\newbool{legacy} \boolfalse{legacy}
+\newbool{twocolumn} \boolfalse{twocolumn}
+\newbool{wide} \boolfalse{wide}
 
+\DeclareOption{legacy}{\booltrue{legacy}}
 \DeclareOption{twocolumn}{
 	\PassOptionsToClass{\CurrentOption}{article}
 	\booltrue{twocolumn}
@@ -80,7 +80,8 @@
 
 % load the Noto font first so that it only affects mathematical notation
 % the font requires TeXlive 2021 or later
-\RequirePackage[scale=0.95]{notomath}
+\ifbool{legacy}{}{\RequirePackage[scale=0.95]{notomath}}
+
 % the class requires 'Source Serif' to be installed
 % you may need to download and install the package, and then clear font cache using `fc-cache`
 % other fonts: https://tug.org/FontCatalogue/
