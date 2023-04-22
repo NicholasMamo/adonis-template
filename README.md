@@ -56,4 +56,5 @@ See the LICENSE.md file for details.
 
 ## Acknowledgments
 
-* [README.md template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc) from [DomPizzie](https://gist.github.com/DomPizzie)
+* [DomPizzie](https://gist.github.com/DomPizzie) for the [README.md template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+* [inuzm](https://github.com/inuzm) for suggesting the Noto font for math text
