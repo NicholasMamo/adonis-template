@@ -63,7 +63,7 @@
 		{\ifbool{twocolumn}{\large}{\huge} \selectfont \noindent \@title \vspace{0.2cm} \par}
 	\end{flushleft}}{}
 	\ifdef{\@author}{{\small \selectfont \noindent \@author \vspace{0.25cm} \par}}{}
-	\ifdef{\@abstract}{{\small \fontshape{it} \selectfont \noindent \@abstract \bigskip \par}}{}
+	\ifdef{\@abstract}{{\small \fontshape{it} \selectfont \noindent \@abstract \par}}{}
 	{\noindent\rule{\linewidth}{0.5pt} }
 	\ifbool{twocolumn}{\vspace{\fill}}{}
 	
