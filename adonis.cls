@@ -102,6 +102,7 @@
 % add protrusion (punctuation can bleed into margins) and text expansion (to vary font width for more even spacing)
 % docs: https://ctan.math.illinois.edu/macros/latex/contrib/microtype/microtype.pdf
 \RequirePackage[protrusion=true,factor=500,expansion=true]{microtype}
+\DisableLigatures{encoding=T1,shape=sc}
 
 % font size: https://www.overleaf.com/learn/latex/Writing_your_own_class
 \ifbool{twocolumn}{\def\lineheight{13}}{\def\lineheight{14}}
