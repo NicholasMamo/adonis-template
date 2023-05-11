@@ -70,8 +70,10 @@
 	\ifboolexpr{test {\ifdef{\@affiliation}} or test {\ifdef{\@correspondence}} or test {\ifdef{\@date}}}{
 		\begin{frontmattercontainer}
 			\ifdef{\@affiliation}{{\sffamily\fontseries{sb}\selectfont\scshape Affiliation} \@affiliation \par}{}
-			\ifdef{\@date}{{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par}{}
+			
 			\ifdef{\@correspondence}{{\sffamily\fontseries{sb}\selectfont\scshape Correspondence} \@correspondence \par}{}
+			
+			\ifdef{\@date}{{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par}{}
 		\end{frontmattercontainer}
 	}{}
 }
