@@ -2,4 +2,5 @@
 *.log
 *.out
 *.synctex.gz
+*.txss2
 quickstart.pdf
