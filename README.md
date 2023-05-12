@@ -2,7 +2,7 @@
 
 A no-frills, elegant LaTeX template.
 
-![](screenshots/close-up.png)
+![](screenshots/close-up-mix.png)
 
 ## Description
 
@@ -45,11 +45,6 @@ If you find any issues, or if you have suggestions to make Adonis better, you ca
 ## Authors
 
 - [Nicholas Mamo](https://github.com/NicholasMamo/)
-
-## Version History
-
-- 0.1
-	- Initial release
 
 ## License
 
