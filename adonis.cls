@@ -4,10 +4,12 @@
 % OPTIONS
 
 \RequirePackage{etoolbox}
+\newbool{dark} \boolfalse{dark}
 \newbool{legacy} \boolfalse{legacy}
 \newbool{twocolumn} \boolfalse{twocolumn}
 \newbool{wide} \boolfalse{wide}
 
+\DeclareOption{dark}{\booltrue{dark}}
 \DeclareOption{legacy}{\booltrue{legacy}}
 \DeclareOption{twocolumn}{
 	\PassOptionsToClass{\CurrentOption}{article}
@@ -26,6 +28,17 @@
 \RequirePackage[a4paper, bindingoffset=0.2in,
 				left=\margin, right=\margin, top=57mm, bottom=57mm,
 				footskip=15mm]{geometry}
+
+% dark mode: set the page color to a dark grey and text color to white
+\ifbool{dark}{
+	\RequirePackage{pagecolor}
+	\RequirePackage{xcolor}
+	
+	\definecolor{DarkGrey}{HTML}{121212}
+	
+	\pagecolor{DarkGrey}
+	\color{white}
+}{}
 
 % add space between columns
 \setlength{\columnsep}{10mm}
