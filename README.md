@@ -22,7 +22,9 @@ If you want to learn more about the `adonis` theme, you can read the `docs.pdf` 
 By default, the template uses a one-column layout.
 However, you can change how it looks using the following options in the preamble:
 
-- `twocolumn`: use a two-column layout.
+- `dark`: use a dark background and light foreground
+- `legacy`: add backwards compatibility for missing fonts in old versions of TeX Live
+- `twocolumn`: use a two-column layout
 - `wide`: give the text wider space by using narrower margins
 
 ### Dependencies
