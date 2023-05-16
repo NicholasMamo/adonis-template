@@ -1,6 +1,6 @@
 # Adonis: a LaTeX template
 
-A no-frills, elegant LaTeX template.
+A no-frills, elegant LaTeX template with dark mode support.
 
 ![](screenshots/close-up-mix.png)
 
