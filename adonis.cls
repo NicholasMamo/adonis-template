@@ -87,7 +87,7 @@
 			
 			\ifdef{\@correspondence}{{\sffamily\fontseries{sb}\selectfont\scshape Correspondence} \@correspondence \par}{}
 			
-			\ifdef{\@version}{{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@version \par}{}
+			\ifdef{\@version}{{\sffamily\fontseries{sb}\selectfont\scshape Version} \@version \par}{}
 		\end{frontmattercontainer}
 	}{}
 }
