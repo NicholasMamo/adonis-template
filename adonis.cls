@@ -56,6 +56,7 @@
 % title
 \newcommand\affiliation[1]{\gdef\@affiliation{#1}}
 \newcommand\correspondence[1]{\gdef\@correspondence{#1}}
+\newcommand\version[1]{\gdef\@version{#1}}
 \renewcommand\abstract[1]{\gdef\@abstract{#1}}
 
 % show the rest of the frontmatter as a footer
@@ -80,13 +81,13 @@
 	{\noindent\rule{\linewidth}{0.5pt} }
 	\ifbool{twocolumn}{\vspace{\fill}}{}
 	
-	\ifboolexpr{test {\ifdef{\@affiliation}} or test {\ifdef{\@correspondence}} or test {\ifdef{\@date}}}{
+	\ifboolexpr{test {\ifdef{\@affiliation}} or test {\ifdef{\@correspondence}} or test {\ifdef{\@version}}}{
 		\begin{frontmattercontainer}
 			\ifdef{\@affiliation}{{\sffamily\fontseries{sb}\selectfont\scshape Affiliation} \@affiliation \par}{}
 			
 			\ifdef{\@correspondence}{{\sffamily\fontseries{sb}\selectfont\scshape Correspondence} \@correspondence \par}{}
 			
-			\ifdef{\@date}{{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@date \par}{}
+			\ifdef{\@version}{{\sffamily\fontseries{sb}\selectfont\scshape Draft} \@version \par}{}
 		\end{frontmattercontainer}
 	}{}
 }
