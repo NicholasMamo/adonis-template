@@ -136,7 +136,9 @@
 \renewcommand{\footnotesize}{\fontsize{8}{11}\selectfont}
 \renewcommand{\small}{\fontsize{9.5}{12.5}\selectfont}
 \renewcommand{\normalsize}{\fontsize{10}{\lineheight}\selectfont}
-\renewcommand{\large}{\fontsize{16}{19}\selectfont}
+\renewcommand{\large}{\fontsize{13}{15}\selectfont}
+\renewcommand{\Large}{\fontsize{16}{19}\selectfont}
+\renewcommand{\LARGE}{\fontsize{18}{21}\selectfont}
 \renewcommand{\huge}{\fontsize{20}{24}\selectfont}
 
 % font weights: https://ctan.mirror.garr.it/mirrors/ctan/macros/latex/base/fntguide.pdf
