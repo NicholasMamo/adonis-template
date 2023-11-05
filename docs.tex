@@ -15,7 +15,7 @@
 
 % headers
 \runningauthor{Nicholas Mamo}
-\runningtitle{Adonis: a guide}
+\runningtitle{Adonis: a LaTeX template}
 \abstract{Academic writing does not have to be drab, and neither does the academic writing template.
 	Not in academia, however.
 	In academia, form normally follows function.
@@ -53,7 +53,7 @@
 				  The template should to make it easy to draft manuscripts, revise and read.
 			
 			\item Aesthetic, by which I mean elegant.
-				  Simple and readable \LaTeX templates abound, but when I looked, I found most to favour function over form.
+				  Simple and readable \LaTeX{} templates abound, but when I looked, I found most to favour function over form.
 		\end{itemize}
 	
 		The rest of this guide documents design considerations for the layout, typography and other elements.
@@ -148,10 +148,11 @@
 			In the two-column layout, \textit{Adonis} also starts a new column after the abstract.
 			The white-space gives the template character and increases the separation between the abstract and the main text.
 			The title also appears slightly smaller in two-column layout, again due to the decreased space.
-			You can specify the title, author and abstract using dedicated commands:
+			You can specify the title, subtitle, author and abstract using dedicated commands:
 			
 			\begin{verbatim}
 				\title{Your title}
+				\subtitle{Your subtitle}
 				\author{Yours truly}
 				\abstract{\lipsum[0]}
 			\end{verbatim}
@@ -225,7 +226,6 @@
 			\subsubsection{Subsubsection}
 			
 				The subsubsection is the third-highest level in manuscripts.
-				It is also used relatively rarely.
 				Differently from all other headings, the subsubsection has a run-in header, which means that the text starts on the same line as the heading—like this one.
 				This style encourages subsubsections not to have more than one paragraph.
 			
@@ -233,18 +233,22 @@
 	
 		\begin{table*}[t!]
 			\begin{tabularx}{\linewidth}{ l l X }
-				\textbf{Version} & \textbf{Date} & \textbf{Changelog} \\ \hline
-				0.1 & April 16, 2023 & Initial release \\
-				0.2 & May 12, 2023   & Improved text readability, new math font and \texttt{legacy} option, dark mode, and miscellaneous layout changes \\
+				\textbf{Version} & \textbf{Date}    & \textbf{Changelog}                                                                                               \\ \hline
+				0.1              & April 16, 2023   & Initial release                                                                                                  \\
+				0.2              & May 12, 2023     & Improved text readability, new math font and \texttt{legacy} option, dark mode, and miscellaneous layout changes \\
+				0.3              & November 5, 2023 & New subtitle and separator commands, more font sizes                                                                                                                 
 			\end{tabularx}
 			\caption{The template's version history.}
 			\label{"Table: version history"}
 		\end{table*}
 	
-		In addition to the layout and typography, \textit{Adonis} also makes slight changes to other common \LaTeX{} elements.
-		The template gives table cells more padding and rows more space, as shown in Table~\ref{"Table: version history"}.
-
-		Margin notes also use a smaller font size such that they are not too prominent.
+		In addition to the layout and typography, \textit{Adonis} also makes slight changes to other common \LaTeX{} elements:
+		
+		\begin{itemize}
+			\item More padding to table cells and more space to rows, as shown in Table~\ref{"Table: version history"}
+			\item Smaller font size to margins such that they are not too prominent
+			\item A new \texttt{\textbackslash{}separator} element
+		\end{itemize}
 	
 	\section{Conclusion}
 	
