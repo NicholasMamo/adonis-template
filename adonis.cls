@@ -189,3 +189,10 @@
 \makeatletter
 \renewcommand{\@marginparreset}{\reset@font\footnotesize\@setminipage}
 \makeatother
+
+% horizontal separator
+\newcommand{\separator}{
+	\begin{center}
+		\rule{0.618\linewidth}{0.5pt}	
+	\end{center}
+}
