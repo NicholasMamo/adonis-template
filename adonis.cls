@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{adonis}[2023/04/14 Adonis LaTeX article class]
+\ProvidesClass{adonis}[2023/11/05 Adonis LaTeX article class]
 
 % OPTIONS
 
