@@ -54,6 +54,7 @@
 \cfoot{\footnotesize \thepage}
 
 % title
+\newcommand\subtitle[1]{\gdef\@subtitle{#1}}
 \newcommand\affiliation[1]{\gdef\@affiliation{#1}}
 \newcommand\correspondence[1]{\gdef\@correspondence{#1}}
 \newcommand\version[1]{\gdef\@version{#1}}
@@ -73,8 +74,17 @@
 \renewcommand{\maketitle}{
 	\noindent
 	\ifdef{\@title}{
-	\begin{flushleft}
-		{\ifbool{twocolumn}{\large}{\huge} \selectfont \noindent \@title \vspace{0.2cm} \par}
+		\begin{flushleft}
+			{\ifbool{twocolumn}{\Large}{\huge} \selectfont \noindent 
+				\@title
+				\ifdef{\@subtitle}{\vspace{-0.2cm}}{\vspace{0.2cm} \par}
+			}
+	\end{flushleft}}{}
+	\ifdef{\@subtitle}{
+		\begin{flushleft}
+			{\large \selectfont \noindent 
+				\textit{\@subtitle} \par
+			}
 	\end{flushleft}}{}
 	\ifdef{\@author}{{\small \selectfont \noindent \@author \vspace{0.25cm} \par}}{}
 	\ifdef{\@abstract}{{\small \fontshape{it} \selectfont \noindent \@abstract \par}}{}
